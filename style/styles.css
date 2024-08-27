@@ -71,9 +71,8 @@ header {
     z-index: 2;
     width: 100%; 
     height: 100%; 
-    top: 30px;
-    right: 30px;
-    opacity: 0.9;
+    top: 40px;
+    right: 41px;
 }
 
 .banner .rec-overlay {
@@ -102,4 +101,25 @@ header {
     top: 45px; 
     background: linear-gradient(180deg, rgba(255, 73, 0, 0.32) 5%, rgba(153, 44, 0, 0.32) 35%);
     border: 15px solid #FF4900;
+}
+
+.banner .frame-bar-1{
+    position: absolute;
+    width: 580px;
+    height: 15px;
+    left: -248px;
+    top: 328px;
+    background: #FF4900;
+    transform: rotate(-90deg);
+    z-index: 3;
+}
+
+.banner .frame-bar-2{
+    position: absolute;
+    width: 530px;
+    height: 15px;
+    left: 50px;
+    top: 610px;
+    background: #FF4900;
+    z-index: 3;
 }

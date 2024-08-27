@@ -62,3 +62,29 @@ header{
 .navigation ul li a:hover {
     font-weight: 500; 
 }
+
+.banner picture img{
+    width: 580px;
+    height: 580px;
+}
+
+.banner .rec-1 {
+    position: absolute; /* Ensure the element is positioned correctly */
+    width: 515px;
+    height: 550px;
+    left: 255px;
+    top: 147px;
+    border: 15px solid #FF4900;
+    z-index: 1; /* Optional: Ensures the rectangle appears behind other elements */
+}
+
+.banner .rec-2 {
+    position: absolute;
+    width: 515px;
+    height: 550px;
+    left: 225px;
+    top: 177px;
+    background: linear-gradient(180deg, rgba(255, 73, 0, 0.32) 5%, rgba(153, 44, 0, 0.32) 35%);
+    border: 15px solid #FF4900;
+    z-index: 0; /* Optional: Ensures the rectangle appears behind rec-1 */
+}

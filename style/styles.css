@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
+
 body {
     background: #242424;
     width: 100%;
@@ -147,4 +148,11 @@ header {
 
 .surname{
     color: #FF4900;
+}
+
+.main-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }

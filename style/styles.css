@@ -183,3 +183,26 @@ header {
     color: #FF4900;
     font-weight: 700;
 }
+
+.context-heading{
+    width: 752px;
+    height: 221px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+.context-para{
+    width: 623px;
+    height: 116px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -152,7 +152,34 @@ header {
 
 .main-home{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+.developer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    left: 0px;
+    background: rgba(217, 217, 217, 0.31);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.developer-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+.nickname{
+    color: #FF4900;
+    font-weight: 700;
 }

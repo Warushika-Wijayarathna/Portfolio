@@ -1,23 +1,16 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
-.body-home {
-    background: #242424;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
+/*Common*/
 
-.body-about{
-    background: #242424;
-    width: 100%;
-    height: 100vh;
-}
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: -50px;
+}
+.logo-container{
+    z-index: 1;
 }
 
 .logo-name {
@@ -85,6 +78,7 @@ header {
     bottom: 0;
     left: 0;
     display: none;
+    z-index: 1;
 }
 
 
@@ -94,6 +88,47 @@ header {
 
 #nav .line {
     display: block;
+}
+
+.mini-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    left: 0px;
+    background: rgba(217, 217, 217, 0.31);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.developer-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+.nickname{
+    color: #FF4900;
+    font-weight: 700;
+}
+
+.footer{
+    
+}
+
+/*Home Page*/
+
+
+.body-home {
+    background: #242424;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .banner {
@@ -191,33 +226,6 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-}
-
-.mini-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 75px;
-    left: 0px;
-    background: rgba(217, 217, 217, 0.31);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.developer-name{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    margin-left: auto;
-    margin-right: 20px;
-    color: #FFFFFF;
-}
-
-.nickname{
-    color: #FF4900;
-    font-weight: 700;
 }
 
 .description {
@@ -354,5 +362,21 @@ header {
     }
     
 }*/
-  
+
+/*About Page*/
+
+.body-about{
+    width: 100%;
+    height: 100vh;
+}
+
+.bio{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: radial-gradient(206.91% 503.64% at 31.69% 86.04%, #242424 18.38%, #FF4900 100%);
+}
+
 

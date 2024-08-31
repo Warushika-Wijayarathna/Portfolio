@@ -4,6 +4,7 @@ body {
     background: #242424;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -38,14 +39,19 @@ header {
 }
 
 .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
+    justify-content: space-around;
+    position: relative; display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 .navigation ul li {
-    margin-left: 57px;
+    display: inline;
 }
 
 .navigation ul li a {
@@ -54,10 +60,34 @@ header {
     font-weight: 200;
     text-decoration: none;
     color: #FFFFFF;
+    padding: 10px 20px;
+    display: block;
+    position: relative;
+    z-index: 1;
 }
 
 .navigation ul li a:hover {
     font-weight: 500;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #FF4900 37.5%, #FFB822 100%);
+    border-radius: 20px;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+
+#home-nav {
+    position: relative;
+}
+
+#home-nav .line {
+    display: block;
 }
 
 .banner {
@@ -184,6 +214,30 @@ header {
     font-weight: 700;
 }
 
+.description {
+    margin-right: 180px;
+    padding: 0; 
+    margin-top: 50px;    
+    margin-bottom: 20px;
+}
+
+.context-heading, .context-para {
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.context-heading-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.context-bar{
+    width: 15px;
+    height: 153px;
+    background: linear-gradient(180deg, #FF4900 37.5%, #FFB822 100%);
+    border-radius: 20px;
+}
+
 .context-heading{
     width: 752px;
     height: 221px;
@@ -207,25 +261,20 @@ header {
     color: #FFFFFF;
 }
 
-.social-links{
-    position: absolute;
-    width: 360px;
-    height: 72.02px;
-    left: 1139px;
-    top: 645px;
-}
-
 .social-links-container{
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    text-align: center;
 }
 
 .social-links{
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
+    align-items: center; 
+    gap: 25px; 
     margin-bottom: 20px;
 }
 
@@ -240,6 +289,10 @@ header {
     transform: scale(1.1);
 }
 
+.social-links img:last-child {
+    margin-right: 0; 
+}
+
 .facebook{
     transform: scale(1.2);
 }
@@ -249,7 +302,7 @@ header {
 } 
 
 .button{
-    margin-top: 200px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,4 +325,28 @@ header {
     background-color: #D84300;
 }
 
+/*@media screen and (max-width: 480px){
+    .App{
+      padding: 0 20px;
+    }
+  
+    .menuContainer{
+      padding: 30px 0px;
+      width: unset;
+      left: 15px;
+    }
+  
+    main{
+      margin-left: 75px;
+    }           
+}*/
+
+
+/*@media all and (min-width: 1000px) {
+    body{
+        background: #D84300;
+    }
+    
+}*/
+  
 

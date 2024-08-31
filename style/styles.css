@@ -5,27 +5,34 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: -50px;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.logo-container {
+    position: relative;
+    display: flex; 
+    align-items: center
 }
 
 .logo-name {
+    position: relative;
+    z-index: 2;
     color: #D9D9D9;
     font-family: "Nico Moji";
     font-size: 50px;
     font-weight: normal;
-    position: relative;
-    left: 180px;
-    top: 10px;
+    margin: 0;
+    padding-left: -20px;
+    line-height: 73px; 
 }
 
 #logo-img {
+    position: relative;
+    z-index: 1;
     width: 74px;
     height: 73px;
-    position: absolute;
-    left: 120px;
-    top: 5px;
 }
 
 .navigation {
@@ -376,6 +383,10 @@
     top: 0px;
     background: radial-gradient(206.91% 503.64% at 31.69% 86.04%, #242424 18.38%, #FF4900 100%);
     z-index: -1;
+}
+
+.body-about footer .social-links{
+    gap: 50px;
 }
 
 

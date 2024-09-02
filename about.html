@@ -26,7 +26,7 @@
 
 </head>
 
-<body class="body-about">
+<body class="body-common" id="body-common">
   <!--About Page-->
     <!--Header Section-->
     <header class="header">
@@ -35,9 +35,9 @@
         <picture>
             <source srcset="images/logo.webp" type="image/webp">
             <source srcset="images/logo.jpg" type="image/jpeg">
-            <img id="logo-img" src="images/logo.png" alt="logo" width="73" height="73" align="left">
+            <img class="logo-img" src="images/logo.png" alt="logo" width="73" height="73" align="left">
         </picture>
-        <h3 class="logo-name">arushika</h3>
+        <h3 class="logo-name">arushika.</h3>
       </div>
 
       <br>
@@ -45,14 +45,14 @@
       <!--Navigation Section-->
       <nav class="navigation">
         <ul>
-          <li id="nav"><a href="home.html">Home</a></li>
-          <li id="nav">
+          <li class="nav"><a href="home.html">Home</a></li>
+          <li class="nav">
             <a href="#">About</a>
               <div class="line"></div>
           </li>
-          <li id="nav"><a href="services.html">Services</a></li>
-          <li id="nav"><a href="blog.html">Blog</a></li>
-          <li id="nav"><a href="contact.html">Contact</a></li>
+          <li class="nav"><a href="services.html">Services</a></li>
+          <li class="nav"><a href="blog.html">Blog</a></li>
+          <li class="nav"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -192,9 +192,11 @@
     </main>
 
     <!--Footer Section-->
-    <footer class="footer">
+    <footer>
+      
       <!--Social Media Links Section-->
       <div class="social-links-container">
+        <div class="seperation-line"></div>
         <!--Social Media Links Section-->
         <div class="social-links">
             <a href="https://www.facebook.com/AshaniWarushika" rel="noopener noreferrer" target="_blank"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
@@ -202,68 +204,70 @@
             <a href="https://github.com/Warushika-Wijayarathna" rel="noopener noreferrer" target="_blank"><img src="images/github.png" alt="linkedin"></a>
             <a href="www.linkedin.com/in/warushika-wijayarathna-679642273" target="_blank"><img src="images/linkedin.png" alt="instagram"></a>
         </div>
-    </div> 
 
-      <!--Quotes and Rights Section-->
-      <div id="quotes-rights">
-        <p id="quotes">""Transforming your ideas into reality with innovative design and development. Let's collaborate to create something truly amazing together!”"</p>
-        <h1>Let's talk</h1> 
-        <p id="rights">© PrimePlus@ 2024. All Rights Reserved.</p>
+        <div class="seperation-line"></div>
       </div>
 
-      <!--Quick Links-->
-      <div id="quick-links">
-        <h4 id="quick-links-heading">Quick Links</h4>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-
-      <!--My Services-->
-      <div id="my-services">
-        <h4 id="my-services-heading">My Services</h4>
-        <ul>
-          <li>Business Consultation</li>
-          <li>UI/UX Design</li>
-          <li>Web Design</li>
-          <li>Maintenance and Support</li>
-        </ul>
-      </div>
-
-      <!--Logo and Contact Section-->
-      <div id="logo-contact">
-        <!--Logo Container Section-->
-        <div id="logo-container2">
-          <img id="logo-img2" src="images/logo.png" alt="logo" width="73" height="73" align="left">
-                <h3 id="logo-name2">arushika</h3>
+      <div class="grid-section">
+        <!--Quotes and Rights Section-->
+        <div id="quotes-rights">
+          <p id="quotes">""Transforming your ideas into reality with innovative design and development. Let's collaborate to create something truly amazing together!”"</p>
+          <h1>Let's talk</h1>
+          <p id="rights">© PrimePlus@ 2024. All Rights Reserved.</p>
         </div>
 
-        <br>
-        <!--PO BOX Section-->
-        <div>
-          <h4>PO BOX</h4>
-          <address>
-            No. 299, 
-            Ranpokunagama,
-            Pokunuwita.
-            12404
-            SL
-          </address>
+        <!--Quick Links-->
+        <div id="quick-links">
+          <h4 id="quick-links-heading">Quick Links</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
 
-        <!--Email-->
-        <p>warushikawijayarathna@gmail.com</p>
-      </div>
+        <!--My Services-->
+        <div id="my-services">
+          <h4 id="my-services-heading">My Services</h4>
+          <ul>
+            <li>Business Consultation</li>
+            <li>UI/UX Design</li>
+            <li>Web Design</li>
+            <li>Maintenance and Support</li>
+          </ul>
+        </div>
 
-      <!--Mini Footer Section-->
+        <!--Logo and Contact Section-->
+        <div id="logo-contact">
+          <!--Logo Container Section-->
+          <div class="logo-container">
+            <img class="logo-img" src="images/logo.png" alt="logo">
+            <h3 class="logo-name">arushika.</h3>
+          </div>
+
+
+          <!--PO BOX Section-->
+          <div>
+            <h4>PO BOX</h4>
+            <address>
+              No. 299,
+              Ranpokunagama,
+              Pokunuwita.
+              12404
+              SL
+            </address>
+          </div>
+
+          <!--Email-->
+          <p>warushikawijayarathna@gmail.com</p>
+        </div>
+      </div>
       <div class="mini-footer">
         <h4 class="developer-name">Developed by <span class="nickname">Ashii</span></h4>
       </div>
-    </footer>
+  </footer>
 
 </body>
 

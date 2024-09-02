@@ -235,6 +235,7 @@ footer{
 }
 
 .banner {
+    min-width: 612px !important;
     position: relative;
     width: 580px; 
     height: 580px; 
@@ -243,7 +244,7 @@ footer{
     transform: scale(0.9);
 }
 
-.banner picture img {
+.banner-img img{
     position: relative;
     z-index: 2;
     width: 100%; 
@@ -407,21 +408,29 @@ footer{
 /*Responsive*/
 
 /*#Home*/
-@media all and (min-width: 1000px){
 
-    /*.main-home>section:nth-child(1){*/
-    /*    margin-left: 80px;*/
-    /*    margin-bottom: 50px;*/
-    /*}*/
+@media all and (max-width: 2000px){
 
-    /*.main-home>section:nth-child(2){*/
-    /*    margin-top: 100px;*/
-    /*}*/
+    .description {
+        margin-right: 70px;
+        padding: 20px;
+        margin-top: 120px;
+    }
 
-    /*header{*/
-    /*    padding: 0px;*/
-    /*}*/
+    .context-heading{
+        width: 900px;
+        height: 221px;
+        font-size: 64px;
+    }
+
+    .context-para{
+        width: 800px;
+        height: 116px;
+        font-size: 24px;
+    }
 }
+
+
 
 /*About Page*/
 

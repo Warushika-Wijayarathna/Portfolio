@@ -29,28 +29,42 @@
 
 <body>
   <!--Contact Page-->
-    <!--Header Section-->
-    <header>
-      <!--Logo Section-->
-      <div id="logo-container">
-        <img id="logo-img" src="images/logo.png" alt="logo" width="73" height="73" align="left">
-        <h3 id="logo-name">arushika</h3>
+  <!--Header Section-->
+  <header class="header">
+    <!--Logo Section-->
+    <div class="logo-container">
+      <div class="img">
+        <picture>
+          <source srcset="images/logo.webp" type="image/webp">
+          <source srcset="images/logo.jpg" type="image/jpeg">
+          <img class="logo-img" src="images/logo.png" alt="logo">
+        </picture>
       </div>
 
-      <br>
-      <!--Navigation Section-->
-      <nav id="navigation">
-        <ul>
-          <li id="home-nav"><a href="index.html">Home</a></li>
-          <li id="about-nav"><a href="about.html">About</a></li>
-          <li id="service-nav"><a href="services.html">Services</a></li>
-          <li id="blog-nav"><a href="blog.html">Blog</a></li>
-          <li id="contact-nav"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+      <div class="name">
+        <h3 class="logo-name">arushika.</h3>
+      </div>
 
-    <!--Main Section-->
+
+    </div>
+
+    <!--Navigation Section-->
+    <nav class="navigation">
+      <ul>
+        <li class="nav">
+          <a href="#">Home</a>
+          <div class="line"></div>
+        </li>
+        <li class="nav"><a href="about.html">About</a></li>
+        <li class="nav"><a href="services.html">Services</a></li>
+        <li class="nav"><a href="blog.html">Blog</a></li>
+        <li class="nav"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!--Main Section-->
     <main id="main">
       <!--Topic Section-->
       <div id="topic">

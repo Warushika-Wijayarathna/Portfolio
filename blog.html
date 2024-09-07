@@ -21,32 +21,42 @@
     <meta property="og:site_name" content="Warushika Wijayarathna">
     <meta property="og:locale" content="en_US">
 
-    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+  <link rel="icon" href="images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap" rel="stylesheet">
     
 </head>
 
 <body>
   <!--Blog Page-->
-    <!--Header Section-->
-    <header>
-      <!--Logo Section-->
-      <div id="logo-container">
-        <img id="logo-img" src="images/logo.png" alt="logo" width="73" height="73" align="left">
-        <h3 id="logo-name">arushika</h3>
-      </div>
+  <!--Header Section-->
+  <header class="header">
+    <!--Logo Section-->
+    <div class="logo-container">
+      <picture>
+        <source srcset="images/logo.webp" type="image/webp">
+        <source srcset="images/logo.jpg" type="image/jpeg">
+        <img class="logo-img" src="images/logo.png" alt="logo" width="73" height="73" align="left">
+      </picture>
+      <h3 class="logo-name">arushika.</h3>
+    </div>
 
-      <br>
-      <!--Navigation Section-->
-      <nav id="navigation">
-        <ul>
-          <li id="home-nav"><a href="home.html">Home</a></li>
-          <li id="about-nav"><a href="about.html">About</a></li>
-          <li id="service-nav"><a href="services.html">Services</a></li>
-          <li id="blog-nav"><a href="#">Blog</a></li>
-          <li id="contact-nav"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <br>
+
+    <!--Navigation Section-->
+    <nav class="navigation">
+      <ul>
+        <li class="nav"><a href="home.html">Home</a></li>
+        <li class="nav">
+          <a href="#">About</a>
+          <div class="line"></div>
+        </li>
+        <li class="nav"><a href="services.html">Services</a></li>
+        <li class="nav"><a href="blog.html">Blog</a></li>
+        <li class="nav"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
     <!--Main Section-->
     <main id="main">
@@ -85,16 +95,24 @@
       </section>
     </main>
 
-    <!--Footer Section-->
-    <footer id="footer">
+  <!--Footer Section-->
+  <footer>
+
+    <!--Social Media Links Section-->
+    <div class="social-links-container">
+      <div class="seperation-line"></div>
       <!--Social Media Links Section-->
-      <div id="social-links">
-        <a href="https://www.facebook.com/AshaniWarushika" id="social-facebook"><img src="images/facebook.png" alt="facebook" width="30" height="30"></a>
-        <a href="https://www.instagram.com/warushika_w/?hl=en" id="social-instagram"><img src="images/instagram.png" alt="twitter" width="30" height="30"></a>
-        <a href="https://github.com/Warushika-Wijayarathna" id="social-github"><img src="images/github.png" alt="linkedin" width="30" height="30"></a>
-        <a href="www.linkedin.com/in/warushika-wijayarathna-679642273" id="social-linkedin"><img src="images/linkedin.png" alt="instagram" width="30" height="30"></a>
+      <div class="social-links">
+        <a href="https://www.facebook.com/AshaniWarushika" rel="noopener noreferrer" target="_blank"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/warushika_w/?hl=en" rel="noopener noreferrer" target="_blank"><img src="images/instagram.png" alt="twitter"></a>
+        <a href="https://github.com/Warushika-Wijayarathna" rel="noopener noreferrer" target="_blank"><img src="images/github.png" alt="linkedin"></a>
+        <a href="www.linkedin.com/in/warushika-wijayarathna-679642273" target="_blank"><img src="images/linkedin.png" alt="instagram"></a>
       </div>
 
+      <div class="seperation-line"></div>
+    </div>
+
+    <div class="grid-section">
       <!--Quotes and Rights Section-->
       <div id="quotes-rights">
         <p id="quotes">""Transforming your ideas into reality with innovative design and development. Let's collaborate to create something truly amazing together!”"</p>
@@ -128,12 +146,12 @@
       <!--Logo and Contact Section-->
       <div id="logo-contact">
         <!--Logo Container Section-->
-        <div id="logo-container2">
-          <img id="logo-img2" src="images/logo.png" alt="logo" width="73" height="73" align="left">
-          <h3 id="logo-name2">arushika</h3>
+        <div class="logo-container">
+          <img class="logo-img" src="images/logo.png" alt="logo">
+          <h3 class="logo-name">arushika.</h3>
         </div>
 
-        <br>
+
         <!--PO BOX Section-->
         <div>
           <h4>PO BOX</h4>
@@ -141,18 +159,19 @@
             No. 299,
             Ranpokunagama,
             Pokunuwita.
+            12404
+            SL
           </address>
         </div>
 
         <!--Email-->
         <p>warushikawijayarathna@gmail.com</p>
       </div>
-
-      <!--Mini Footer Section-->
-      <div id="mini-footer">
-        <h4 id="developer-name" align="right">Developed by Ashii</h4>
-      </div>
-    </footer>
+    </div>
+    <div class="mini-footer">
+      <h4 class="developer-name">Developed by <span class="nickname">Ashii</span></h4>
+    </div>
+  </footer>
 </body>
 
 </html>

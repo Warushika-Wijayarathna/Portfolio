@@ -268,9 +268,50 @@ footer .social-links{
 
 .grid-section>div:nth-child(2){
     width: 1px;
-    height: 400px;
-    margin-top: -50px;
+    height: 350px;
+    margin-top: -60px;
 }
+
+.grid-section>div:nth-child(3){
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.quick-links {
+    margin-top: -90px;
+    margin-left: -230px;
+    text-align: left;
+}
+
+.quick-links h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 40px;
+}
+
+.quick-links ul li {
+    margin-bottom: 5px;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.quick-links ul li a:hover {
+    text-decoration: underline;
+}
+
 
 /*Home Page*/
 

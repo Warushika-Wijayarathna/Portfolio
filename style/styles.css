@@ -368,6 +368,10 @@ address{
     color: #FFFFFF;
 }
 
+#last-line {
+    margin-top: 0;
+    margin-left: 50px;
+}
 /*Home Page*/
 
 

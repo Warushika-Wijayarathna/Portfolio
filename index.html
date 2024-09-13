@@ -1,27 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Home</title>
+    
+    <meta name="description" content="Welcome to the homepage of Warushika Wijayarathna, a full-stack developer based in Sri Lanka. Crafting digital excellence with innovative design and cutting-edge technology.">
+
+    <meta name="keywords" content="Warushika Wijayarathna, Full-stack Developer, Sri Lanka, Web Development, Digital Solutions, Innovative Design">
+
+    <meta name="author" content="Warushika Wijayarathna">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Warushika Wijayarathna - Full-stack Developer">
+    <meta property="og:description" content="Crafting digital excellence with innovative design and cutting-edge technology. Based in Sri Lanka.">
+    <meta property="og:image" content="images/banner.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://warushikawijayarathna.com">
+    <meta property="og:site_name" content="Warushika Wijayarathna">
+    <meta property="og:locale" content="en_US">
+
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body class="body-home" id="body-home">
+    <!--Home Page-->
         <!--Header Section-->
-        <header>
+        <header class="header">
             <!--Logo Section-->
-            <div>
-                <img src="images/logo.png" alt="logo">
-                <h3>arushika</h3>
+            <div class="logo-container">
+                <div class="img">
+                    <picture>
+                        <source srcset="images/logo.webp" type="image/webp">
+                        <source srcset="images/logo.jpg" type="image/jpeg">
+                        <img class="logo-img" src="images/logo.png" alt="logo">
+                    </picture>
+                </div>
+
+                <div class="name">
+                    <h3 class="logo-name">arushika.</h3>
+                </div>
+                
+                
             </div>
-            <!--Navigation Section-->
-            <nav>
+
+            <!--Navigation Section-->       
+            <nav class="navigation">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="nav">
+                        <a href="#">Home</a>
+                        <div class="line"></div>
+                    </li>
+                    <li class="nav"><a href="about.html">About</a></li>
+                    <li class="nav"><a href="services.html">Services</a></li>
+                    <li class="nav"><a href="blog.html">Blog</a></li>
+                    <li class="nav"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
+
+        <!--Main Section-->
+        <main class="main-home">
+            <!--Intro Banner Section-->
+            <section class="banner">
+                <div class="frame-bar-1"></div>
+                <div class="frame-bar-2"></div>
+                <div class="rec-overlay">
+                    <div class="rec-1"></div>
+                    <div class="rec-2"></div>
+                </div>
+                <picture class="banner-img">
+                    <source srcset="images/banner.webp, images/banner.jpg, images/banner.png" type="image/webp, image/jpeg, image/png">
+                    <img src="images/banner.png" alt="banner">
+                </picture>
+                <h1 class="banner-name">WARUSHIKA <span class="surname">WIJAYARATHNA</span></h1>
+            </section>
+
+            <!--Intro Description Section-->
+            <section class="description">
+                <!--Context Section-->
+                <div class="context">
+                    <div class="context-heading-box">
+                        <div class="context-bar"></div>
+                        <h2 class="context-heading">Full-stack Developer based in Sri Lanka</h2>
+                    </div>
+                    
+                    <p class="context-para">
+                        "Crafting Digital Excellence, One Line of Code at a Time. Transforming ideas into impactful digital solutions with innovative design and cutting-edge technology."
+                    </p>
+                </div>
+               <!--Button Section-->
+                <div class="social-links-container">
+                    <!--Social Media Links Section-->
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/AshaniWarushika" rel="noopener noreferrer" target="_blank"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+                        <a href="https://www.instagram.com/warushika_w/?hl=en" rel="noopener noreferrer" target="_blank"><img src="images/instagram.png" alt="twitter"></a>
+                        <a href="https://github.com/Warushika-Wijayarathna" rel="noopener noreferrer" target="_blank"><img src="images/github.png" alt="linkedin"></a>
+                        <a href="www.linkedin.com/in/warushika-wijayarathna-679642273" target="_blank"><img src="images/linkedin.png" alt="instagram"></a>
+                    </div>
+
+                    <div class="button">
+                        <a href="about.html"><button id="learn-more">Learn More</button></a>
+                    </div>
+                </div> 
+            </section>
+        </main>
+
+        <!--Developer Section-->
+        <footer class="mini-footer">
+            <h4 class="developer-name">Developed by <span class="nickname">Ashii</span></h4>
+        </footer>
 </body>
 </html>

@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     padding-top: 0;
     padding-left: 80px;
+    height: 100px;
 }
 
 .logo-container {

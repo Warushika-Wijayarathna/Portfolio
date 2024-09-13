@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
-
+@import url(https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap);
 /*Common*/
 
 h1, h2, h3, h4, h5, h6, p {
@@ -584,8 +584,25 @@ address{
 
 /*About Page*/
 
+.topic>h2:nth-child(2){
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
 
+    color: #FF4900;
+}
 
+.topic>h2:nth-child(1){
+    font-family: 'Londrina Outline', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 24px;
+
+    color: #FF4900;
+}
 /*Responsive*/
 
 /*#Home*/

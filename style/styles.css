@@ -373,6 +373,19 @@ address{
     margin-top: 0;
     margin-left: 50px;
 }
+
+.context-section {
+    width: 100%;
+    height: 843px;
+    left: 0px;
+    margin-top: calc(100vh - 232px);
+    background: linear-gradient(359.82deg, #FF4900 -224.5%, #242424 27.34%);
+    overflow: hidden;
+    padding: 0;
+    margin-left: -8px;
+}
+
+
 /*Home Page*/
 
 

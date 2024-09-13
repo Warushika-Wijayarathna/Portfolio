@@ -122,7 +122,7 @@ header {
     font-weight: 700;
 }
 
-.footer{
+footer{
     background: #3C3C3C;
     width: 100%;
     height: 797px;
@@ -174,7 +174,6 @@ header {
 #body-common{
     width: 100%;
     height: 100vh;
-    overflow-x: hidden;
 }
 
 .bio{
@@ -229,11 +228,11 @@ header {
     margin-top: -60px;
     width: 482px;
     height: 116px;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 
 .grid-section>div:nth-child(1)>h1{
-    margin-left: 80px;
+    margin-left: 120px;
     margin-top: -20px;
     font-family: 'Inter', serif;
     font-style: normal;
@@ -249,13 +248,13 @@ header {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-    margin-left: 80px;
+    margin-left: 120px;
     margin-top: 80px;
     width: 500px;
     color: #FFFFFF;
 }
 
-.footer .social-links{
+footer .social-links{
     gap: 80px;
 }
 
@@ -271,7 +270,6 @@ header {
     width: 1px;
     height: 350px;
     margin-top: -60px;
-    margin-left: -50px;
 }
 
 .grid-section>div:nth-child(3), .grid-section>div:nth-child(4){
@@ -284,9 +282,8 @@ header {
 
 .quick-links, .my-services{
     margin-top: -90px;
-    margin-left: -40px;
+    margin-left: -180px;
     text-align: left;
-    width: 300px;
 }
 
 .quick-links h4, #my-services-heading{
@@ -315,7 +312,7 @@ header {
     text-decoration: underline;
 }
 
-.my-services{
+.my-services {
     margin-left: -100px;
 }
 
@@ -329,14 +326,12 @@ header {
 
 .grid-section>div:nth-child(5){
     text-align: right;
+    margin-right: 50px;
+}
 
-}
-#logo-contact{
-    margin-left: -80px;
-}
 .grid-section>div:nth-child(5)>.logo-container{
-    margin-top: -120px;
-    width: 500px;
+    margin-top: -100px;
+    margin-left: 200px;
 }
 
 .grid-section>div:nth-child(5)>.po-box>h4{
@@ -348,10 +343,6 @@ header {
     color: #FF4900;
 }
 
-.po-box{
-    width: 700px;
-    margin-left: -330px;
-}
 address{
     margin-top: -45px;
     font-family: 'Inter', serif;
@@ -369,9 +360,8 @@ address{
     font-weight: 800;
     font-size: 28px;
     line-height: 34px;
+
     color: #FF4900;
-    margin-left: -630px;
-    width: 1000px;
 }
 
 .email span {
@@ -382,7 +372,6 @@ address{
     margin-top: 0;
     margin-left: 50px;
 }
-
 /*Home Page*/
 
 
@@ -390,7 +379,7 @@ address{
     background: #242424;
     width: 100%;
     height: 100vh;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .main-home>section:nth-child(2){
@@ -569,7 +558,6 @@ address{
     background-color: #D84300;
 }
 
-
 /*About Page*/
 
 
@@ -580,7 +568,7 @@ address{
 
 /*Desktops*/
 
-@media all and (max-width: 1920px){
+@media all and (min-width: 1920px){
 
     .description {
         margin-right: 70px;

@@ -379,8 +379,8 @@ address{
     width: 100%;
     height: 843px;
     left: 0px;
-    margin-top: calc(100vh - 232px);
-    background: linear-gradient(359.82deg, #FF4900 -224.5%, #242424 27.34%);
+    margin-top: 100vh;
+    background: radial-gradient(152.63% 394.85% at 55.86% 77.05%, #242424 18.38%, #FF4900 100%);
     overflow: hidden;
     padding: 0;
     margin-left: -8px;
@@ -584,28 +584,72 @@ address{
 
 /*About Page*/
 
-.topic>h2:nth-child(2){
+.topic {
+    position: relative;
+}
+
+.topic-heading-box {
+    position: relative;
+    margin-top: 0;
+}
+
+.topic-heading-box h2:nth-child(2) {
+    position: relative;
+    margin-top: -100px;
+    left: 80px;
     font-family: 'Inter', serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
-
     color: #FF4900;
 }
 
-.topic>h2:nth-child(1){
+.topic-heading-box h2:nth-child(1) {
+    position: relative;
+    top: -30px;
+    left: 80px;
     font-family: 'Londrina Outline', serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 64px;
     line-height: 24px;
-
     color: #FF4900;
 }
 
+.services .context-section{
+    margin-top: -110px;
+}
 
-.
+.body-common .context-heading-box{
+    position: relative;
+    width: 800px;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.body-common .context-heading {
+    height: 70px;
+}
+
+.body-common .context-bar{
+    height: 89px;
+}
+
+.description-qoute {
+    font-family: 'Inter', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 892px;
+    height: 77px;
+    margin-top: 330px;
+    margin-left: 80px;
+}
+
+#main {
+    margin-top: 0;
+}
 /*Responsive*/
 
 /*#Home*/

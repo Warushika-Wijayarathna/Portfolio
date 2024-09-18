@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="style/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 </head>
 
 <body class="body-common" id="body-common">
@@ -73,57 +76,59 @@
 
       <!--Bio Section-->
       <article class="bio">
-        <!--Description Section-->
-        <div class="description-bio">
-          <p class="description-qoute">"In the heart of innovation lies the courage to challenge the ordinary and the vision to create the extraordinary."</p>
+        <div class="bio-grid">
+          <!--Description Section-->
+          <div class="description-bio">
+            <p class="description-qoute">"In the heart of innovation lies the courage to challenge the ordinary and the vision to create the extraordinary."</p>
 
-          <!--Description Table Section-->
-          <div class="description-tbl">
-            <table class="description-table">
-              <tr>
-                <td>Name</td>
-                <td class="detail">: W.G.A.Warushika Wijayarathna</td>
-              </tr>
-              <tr>
-                <td>Age</td>
-                <td class="detail">: 21 yrs</td>
-              </tr>
-              <tr>
-                <td >Email</td>
-                <td class="detail">: warushikawijayarathna@gmail@gmail.com</td>
-              </tr>
-            </table>
-            <table class="description-table">
-              <tr>
-                <td>Occupation</td>
-                <td class="detail">: Full-stack Developer</td>
-              </tr>
-              <tr>
-                <td>Nationality</td>
-                <td class="detail">: Sri Lankan</td>
-              </tr>
-              <tr>
-                <td>Telephone No</td>
-                <td class="detail">: +94 716930518</td>
-              </tr>
-            </table>
+            <!--Description Table Section-->
+            <div class="description-tbl">
+              <table class="description-table">
+                <tr>
+                  <td>Name</td>
+                  <td class="detail">: W.G.A.Warushika Wijayarathna</td>
+                </tr>
+                <tr>
+                  <td>Age</td>
+                  <td class="detail">: 21 yrs</td>
+                </tr>
+                <tr>
+                  <td >Email</td>
+                  <td class="detail">: warushikawijayarathna@gmail@gmail.com</td>
+                </tr>
+              </table>
+              <table class="description-table">
+                <tr>
+                  <td>Occupation</td>
+                  <td class="detail">: Full-stack Developer</td>
+                </tr>
+                <tr>
+                  <td>Nationality</td>
+                  <td class="detail">: Sri Lankan</td>
+                </tr>
+                <tr>
+                  <td>Telephone No</td>
+                  <td class="detail">: +94 716930518</td>
+                </tr>
+              </table>
+            </div>
+
+            <!--Passion-->
+            <p class="passion">
+              With a strong foundation in software engineering and a keen eye for design, I strive to blend functionality with aesthetics in every project. My commitment to continuous learning and excellence drives me to stay ahead in the ever-evolving tech landscape. Whether it's developing robust applications or crafting intuitive user interfaces, I am focused on delivering high-quality results that exceed expectations.
+            </p>
           </div>
 
-          <!--Passion-->
-          <p class="passion">
-            With a strong foundation in software engineering and a keen eye for design, I strive to blend functionality with aesthetics in every project. My commitment to continuous learning and excellence drives me to stay ahead in the ever-evolving tech landscape. Whether it's developing robust applications or crafting intuitive user interfaces, I am focused on delivering high-quality results that exceed expectations.
-          </p>
-        </div>
-
-        <!--Description Gallery Section-->
-        <div class=description-gallery">
-          <figure>
-            <span class="sq-1"></span>
-            <span class="sq-1"></span>
-            <img id="description-gallery-img1" src="images/about1.png" alt="about1">
-            <span class="sq-1"></span>
-            <span class="sq-1"></span>
-          </figure>
+          <!--Description Gallery Section-->
+          <div class="description-gallery" data-aos="zoom-in">
+            <figure class="description-figure">
+              <div class="sq-1"></div>
+              <div class="sq-1"></div>
+              <div class="sq-1"></div>
+              <div class="sq-1"></div>
+              <img id="description-gallery-img1" src="images/about1.png" alt="about1">
+            </figure>
+          </div>
         </div>
       </article>
 
@@ -288,6 +293,11 @@
       </div>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

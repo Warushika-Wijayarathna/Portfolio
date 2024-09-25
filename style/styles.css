@@ -901,8 +901,66 @@ address{
     width: 686px;
     height: 159px;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 80px;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.service {
+    background: rgba(60, 60, 60, 0.38);
+    border-radius: 30px;
+    width: 300px;
+    height: 319px;
+    text-align: center;
+}
+
+.service :hover {
+    background: rgba(60, 60, 60, 0.8);
+}
+
+.service img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.service h3 {
+    font-weight: 500;
+    font-size: 30px;
+    width: 300px;
+}
+
+.service-cards div:nth-child(1) img {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.service-cards div:nth-child(2) img {
+    max-width: 82px;
+    max-height: 82px;
+}
+
+.service-cards div:nth-child(3) img {
+    max-width: 73px;
+    max-height: 73px;
+}
+
+.service-cards div:nth-child(4) img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.service-cards div:nth-child(5) img {
+    width: 103.07px;
+    height: 95.93px;
 }
 
 /*Responsive*/

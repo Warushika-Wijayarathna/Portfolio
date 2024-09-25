@@ -1064,6 +1064,14 @@ address{
 }
 
 /*Contact*/
+#contact {
+    padding: 0;
+    overflow-x: hidden;
+    margin: -10px;
+}
+#contact .navigation {
+    z-index: 4;
+}
 #contact table, form{
     color: #FFFFFF;
 }
@@ -1072,7 +1080,6 @@ address{
     height: 843px;
     margin-top: -130px;
     position: relative;
-    z-index: -1;
 }
 
 #contact .topic {
@@ -1141,14 +1148,18 @@ address{
     background: rgba(60, 60, 60, 0.56);
     border-radius: 50px;
     font-size: 20px;
-    border: none;
     margin-top: 20px;
+    border: none;
 }
 
 #contact form #message {
     height: 185px;
-    border: none;
 }
+
+#contact .input-button {
+    place-items: center;
+}
+
 /*Responsive*/
 
 /*#Home*/

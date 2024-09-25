@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap);
 /*Common*/
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, div {
     font-family: 'Inter', sans-serif;
 }
 
@@ -176,6 +176,7 @@ header {
 #body-common{
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .bio{
@@ -377,7 +378,7 @@ address{
 
 .context-section {
     width: 100%;
-    height: 343px;
+    height: 820px;
     left: 0;
     margin-top: calc(100vh - 394px);
     background: radial-gradient(152.63% 394.85% at 55.86% 77.05%, #242424 18.38%, #FF4900 100%);
@@ -797,6 +798,66 @@ address{
     border-radius: 30px;
     object-fit: cover;
 }
+
+.context-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.context-detail {
+    margin-left: -150px;
+}
+
+.context-grid h2 {
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.context-grid h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+}
+
+.context-grid .seperation-line {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    width: 900px;
+}
+.education {
+    font-weight: 400;
+}
+
+.education p {
+    font-weight: 200;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
+.education ul{
+    margin-top: -10px;
+    margin-left: 20px;
+    padding: 0;
+    font-weight: 200;
+    width: 350px;
+}
+
+.experience {
+    font-weight: 400;
+}
+
+.experience>p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
 /*Responsive*/
 
 /*#Home*/

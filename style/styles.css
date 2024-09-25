@@ -922,8 +922,8 @@ address{
     text-align: center;
 }
 
-.service :hover {
-    background: rgba(60, 60, 60, 0.8);
+.service:hover {
+    background: rgba(255, 73, 0, 0.13);
 }
 
 .service img{

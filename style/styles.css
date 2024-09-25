@@ -1064,6 +1064,10 @@ address{
 }
 
 /*Contact*/
+#contact table, form{
+    color: #FFFFFF;
+}
+
 #contact .skills-achievements {
     height: 843px;
     margin-top: -130px;
@@ -1073,6 +1077,14 @@ address{
 #contact .topic {
     margin-top: 120px;
     position: absolute;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 400px;
+    left: 80px;
 }
 
 

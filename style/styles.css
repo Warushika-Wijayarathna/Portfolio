@@ -858,6 +858,48 @@ address{
     font-size: 16px;
 }
 
+/*Services*/
+.services p, h3 {
+    color: #FFFFFF;
+}
+.services .topic {
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+
+.services .context-heading{
+    font-size: 64px;
+    line-height: 77px;
+    margin-top: 0;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.services .topic-heading-box {
+    margin-top: 0;
+    margin-right: 120px;
+}
+
+.services .context-bar {
+    height: 87px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    width: 686px;
+    height: 159px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
 /*Responsive*/
 
 /*#Home*/

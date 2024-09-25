@@ -1072,6 +1072,7 @@ address{
 #contact .navigation {
     z-index: 4;
 }
+
 #contact table, form{
     color: #FFFFFF;
 }
@@ -1127,7 +1128,7 @@ address{
 #contact .form-grid .seperation-line {
     height: 350px;
     width: 1px;
-    top: -70px;
+    top: -120px;
     left: 200px;
 }
 
@@ -1157,7 +1158,8 @@ address{
 }
 
 #contact .input-button {
-    place-items: center;
+    margin-left: 250px;
+    margin-top: 50px;
 }
 
 /*Responsive*/

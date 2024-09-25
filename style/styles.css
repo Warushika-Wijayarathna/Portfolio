@@ -859,7 +859,7 @@ address{
 }
 
 /*Services*/
-.services p, h3 {
+.services p, h3, h2 {
     color: #FFFFFF;
 }
 .services .topic {
@@ -995,15 +995,34 @@ address{
     margin: 0;
 }
 
+.work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
 .project-cards {
-    width: 736px;
-    height: 433px;
     background: rgba(60, 60, 60, 0.56);
     border-radius: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    text-align: center;
+    width: 736px;
+    height: 433px;
+    place-items: center;
 }
+
+.project {
+    width: 289px;
+    height: 167px;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
 /*Responsive*/
 
 /*#Home*/

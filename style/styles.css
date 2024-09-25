@@ -1062,6 +1062,20 @@ address{
     margin-top: 120px;
     margin-left: -300px;
 }
+
+/*Contact*/
+#contact .skills-achievements {
+    height: 843px;
+    margin-top: -130px;
+    position: relative;
+}
+
+#contact .topic {
+    margin-top: 120px;
+    position: absolute;
+}
+
+
 /*Responsive*/
 
 /*#Home*/

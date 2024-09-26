@@ -1126,7 +1126,7 @@ address{
 }
 
 #contact .form-grid .seperation-line {
-    height: 50px;
+    height: 350px;
     width: 1px;
     top: -120px;
     left: 200px;
@@ -1151,6 +1151,7 @@ address{
     font-size: 20px;
     margin-top: 20px;
     border: none;
+    color: rgba(255, 255, 255, 0.65);
 }
 
 #contact form #message {

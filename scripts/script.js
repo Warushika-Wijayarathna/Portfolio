@@ -1,18 +1,21 @@
-let slides = document.querySelectorAll('.slide');
+document.addEventListener('DOMContentLoaded', () => {
+    let slides = document.querySelectorAll('.slide');
 
-for(let slide of slides) {
-    slide.addEventListener('click', ()=>{
-        allSliderClassRemove('active')
-        slide.classList.add('active')
-    })
-  slide.onclick = () => {
-    allSliderClassRemove('active')
-    slide.classList.add('active')
-  }
-}
+    // Make the second slide active on page load
+    if (slides.length > 1) {
+        slides[1].classList.add('active');
+    }
 
-function allSliderClassRemove(className) {
-    slides.forEach(slide => {
-        slide.classList.remove(className)
-    })
-}
+    for (let slide of slides) {
+        slide.addEventListener('click', () => {
+            allSliderClassRemove('active');
+            slide.classList.add('active');
+        });
+    }
+
+    function allSliderClassRemove(className) {
+        slides.forEach(slide => {
+            slide.classList.remove(className);
+        });
+    }
+});

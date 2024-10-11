@@ -27,7 +27,7 @@
     
 </head>
 
-<body>
+<body id="blog" class="body-common">
   <!--Blog Page-->
   <!--Header Section-->
   <header class="header">
@@ -59,37 +59,77 @@
   </header>
 
     <!--Main Section-->
-    <main id="main">
+    <main class="skills-achievements">
       <!--Topic Section-->
-      <div id="topic">
-        <h2 id="topic-heading">Blog</h2>
-        <h1 id="topic-name">ACKNOWLEDGEMENT</h1>
+      <div class="topic">
+        <div class="topic-heading-box">
+          <h2 class="topic-heading">Blog</h2>
+          <h2 class="topic-heading">Blog</h2>
+        </div>
+        <div class="context-heading-box">
+          <div class="context-bar"></div>
+          <h1 class="context-heading">ACKNOWLEDGEMENT</h1>
+        </div>
       </div>
 
       <!--Blog Cards Section-->
       <section id="blog-cards">
-        <!--Card 1-->
-        <div id="card1">
-          <img id="img1" src="images/blog2.png" alt="blog-img1" width="500" height="500">
-          <h2 id="card-heading1">“The Rise of AI: Are Developers Becoming Obsolete?”
-            <a href="https://medium.com/@warushikawijayarathna/riding-the-trend-why-sri-lankan-youth-are-opting-for-software-engineering-5767cda464b9">Read More</a>
-          </h2>
-        </div>
+<!--        &lt;!&ndash;Card 1&ndash;&gt;-->
+<!--        <div id="card1">-->
+<!--          <img id="img1" src="images/blog2.png" alt="blog-img1" width="500" height="500">-->
+<!--          <h2 id="card-heading1">“The Rise of AI: Are Developers Becoming Obsolete?”-->
+<!--            <a href="https://medium.com/@warushikawijayarathna/riding-the-trend-why-sri-lankan-youth-are-opting-for-software-engineering-5767cda464b9">Read More</a>-->
+<!--          </h2>-->
+<!--        </div>-->
 
-        <!--Card 2-->
-        <div id="card2">
-          <img id="img2" src="images/blog1.png" alt="blog-img2" width="500" height="500">
-          <h2 id="card-heading2">“Riding the Trend: Why Sri Lankan Youth Are Opting for Software Engineering”
-            <a href="https://medium.com/@warushikawijayarathna/riding-the-trend-why-sri-lankan-youth-are-opting-for-software-engineering-5767cda464b9">Read More</a>
-          </h2>
-        </div>
+<!--        &lt;!&ndash;Card 2&ndash;&gt;-->
+<!--        <div id="card2">-->
+<!--          <img id="img2" src="images/blog1.png" alt="blog-img2" width="500" height="500">-->
+<!--          <h2 id="card-heading2">“Riding the Trend: Why Sri Lankan Youth Are Opting for Software Engineering”-->
+<!--            <a href="https://medium.com/@warushikawijayarathna/riding-the-trend-why-sri-lankan-youth-are-opting-for-software-engineering-5767cda464b9">Read More</a>-->
+<!--          </h2>-->
+<!--        </div>-->
 
-        <!--Card 3-->
-        <div id="card3">
-          <img id="img3" src="images/blog3.png" alt="blog-img3" width="500" height="500">
-          <h2 id="card-heading3">“The Future of Software Engineering in Sri Lanka: Navigating the Uncharted Waters”
-            <a href="https://medium.com/@warushikawijayarathna/riding-the-trend-why-sri-lankan-youth-are-opting-for-software-engineering-5767cda464b9">Read More</a>
-          </h2>
+<!--        &lt;!&ndash;Card 3&ndash;&gt;-->
+<!--        <div id="card3">-->
+<!--          <img id="img3" src="images/blog3.png" alt="blog-img3" width="500" height="500">-->
+<!--          <h2 id="card-heading3">“The Future of Software Engineering in Sri Lanka: Navigating the Uncharted Waters”-->
+<!--            <a href="https://medium.com/@warushikawijayarathna/riding-the-trend-why-sri-lankan-youth-are-opting-for-software-engineering-5767cda464b9">Read More</a>-->
+<!--          </h2>-->
+<!--        </div>-->
+
+        <div class="container">
+          <div
+                  class="slide"
+                  style="background-image: url('images/blog2.png');"
+          >
+            <h3>
+              “The Rise of AI: Are Developers Becoming Obsolete?”
+                <a href="https://medium.com/@warushikawijayarathna/riding-the-trend-why-sri-lankan-youth-are-opting-for-software-engineering-5767cda464b9">Read More</a>
+            </h3>
+          </div>
+          <div
+                  class="slide"
+                  style="
+          background-image: url('images/blog1.png');
+        "
+          >
+            <h3>
+              “Riding the Trend: Why Sri Lankan Youth Are Opting for Software Engineering”
+                <a href="https://medium.com/@warushikawijayarathna/riding-the-trend-why-sri-lankan-youth-are-opting-for-software-engineering-5767cda464b9">Read More</a>
+            </h3>
+          </div>
+          <div
+                  class="slide"
+                  style="
+          background-image: url('images/blog3.png');
+        "
+          >
+            <h3>
+                “The Future of Software Engineering in Sri Lanka: Navigating the Uncharted Waters”
+                    <a href="https://medium.com/@warushikawijayarathna/riding-the-trend-why-sri-lankan-youth-are-opting-for-software-engineering-5767cda464b9">Read More</a>`
+            </h3>
+          </div>
         </div>
 
       </section>
@@ -175,6 +215,9 @@
       <h4 class="developer-name">Developed by <span class="nickname">Ashii</span></h4>
     </div>
   </footer>
+
+  <!-- Custom JS-->
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>

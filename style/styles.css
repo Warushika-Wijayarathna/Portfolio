@@ -1173,6 +1173,11 @@ address{
 
 
 /*Blog*/
+#blog {
+    padding: 0;
+    overflow-x: hidden;
+    margin: -10px;
+}
 
 #blog .skills-achievements {
     height: 100vh;
@@ -1187,10 +1192,6 @@ address{
 
 #blog .navigation {
     z-index: 4;
-}
-
-#blog * {
-    /*box-sizing: border-box;*/
 }
 
 #blog #blog-cards {
@@ -1261,9 +1262,9 @@ address{
 }
 
 #blog #blog-cards h3 a {
-    text-decoration: none;
     color: #FFFFFF;
     font-weight: 500;
+    text-decoration: underline;
 }
 
 /*Responsive*/

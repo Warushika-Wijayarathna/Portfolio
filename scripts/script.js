@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     let slides = document.querySelectorAll('.slide');
 
-    // Make the second slide active on page load
     if (slides.length > 1) {
         slides[1].classList.add('active');
     }

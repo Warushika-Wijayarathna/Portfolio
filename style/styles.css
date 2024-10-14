@@ -636,6 +636,7 @@ address{
 /*About Page*/
 
 .topic {
+    width: 96%;
     position: relative;
 }
 
@@ -1103,6 +1104,7 @@ address{
 }
 
 .form-grid {
+    width: 96%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: relative;
@@ -1767,6 +1769,15 @@ address{
         display: none;
     }
 
+    .context-section {
+        height: 100vh;
+    }
+
+    #main .skills-achievements {
+        background-color: rgba(255, 255, 255, 0);
+        z-index: 1;
+    }
+
     .bio-grid {
         grid-template-columns: 90%;
         grid-template-rows: 70% 30%;
@@ -1776,6 +1787,13 @@ address{
         margin-left: 0;
         margin-top: -10%;
     }
+
+    .context-grid {
+        grid-template-columns: 90%;
+        grid-template-rows: 50% 40%;
+    }
+
+
 }
 
 /*Mobile-Large*/

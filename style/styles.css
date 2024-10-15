@@ -1243,8 +1243,8 @@ address {
     background: rgba(255, 73, 0, 0.45);
     border-radius: 30px;
     top: 100px;
-    margin-left: 80px;
     font-weight: 500;
+    margin: 0 auto;
 }
 
 .count {
@@ -1327,6 +1327,16 @@ address {
 .work-ethics div:nth-child(2) {
     margin-top: 120px;
     margin-left: -300px;
+}
+
+.assignments-section {
+    width: 100%;
+    height: 958px;
+    left: 0px;
+    margin-left: -8px;
+    margin-top: -20px;
+    background: linear-gradient(359.82deg, #FF4900 -224.5%, #242424 27.34%);
+    padding: 0;
 }
 
 /*Contact*/

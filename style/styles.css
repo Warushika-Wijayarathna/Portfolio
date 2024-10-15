@@ -888,7 +888,7 @@ address{
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 25px;
 }
 
 .skill {
@@ -946,13 +946,7 @@ address{
 }
 
 .download-btn {
-    background-color: #ff5722;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-top: 20px;
+
 }
 
 .download-btn:hover {

@@ -1337,8 +1337,6 @@ address {
 
 /* Hover over a card to flip, can tab too. */
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 /* default */
 #flip *,
 #flip *::after,
@@ -1351,15 +1349,15 @@ address {
 /* body */
 #flip {
     min-height: 100vh;
-    padding: 40px;
-
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
-    background: hsl(220, 10%, 12%);
-    font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
+    margin-left: -8px;
+    background: radial-gradient(152.63% 394.85% at 55.86% 77.05%, #242424 18.38%, #FF4900 100%);
+    font-family: 'Inter', sans-serif;
+    gap: 2%;
 }
 
 /* .flip-card-container */
@@ -1371,10 +1369,9 @@ address {
     --dark: hsl(var(--hue), 25%, 10%);
     --grey: hsl(0, 0%, 50%);
 
-    width: 310px;
+    width: 250px;
     height: 500px;
-    margin: 40px;
-
+    top: 5%;
     perspective: 1000px;
 }
 

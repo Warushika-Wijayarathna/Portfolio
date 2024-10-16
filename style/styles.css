@@ -1532,6 +1532,15 @@ figcaption {
     position: relative;
 }
 
+#flip li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#flip li a:hover {
+    font-weight: 600;
+}
+
 #flip li:nth-child(2n) {
     color: var(--white-2);
 }

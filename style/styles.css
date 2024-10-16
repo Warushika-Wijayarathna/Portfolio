@@ -1347,6 +1347,7 @@ address {
     margin: 0;
     width: 95%;
     font-size: 48px;
+    font-weight: 400;
 }
 
 /* default */
@@ -1708,6 +1709,15 @@ figcaption {
     --op: .7;
 }
 
+.github-icon {
+    font-size: 40px; /* Adjust the size of the icon */
+    color: #FFFFFF; /* Change the color of the icon */
+    transition: color 0.3s ease; /* Add a transition effect */
+}
+
+.github-icon:hover {
+    color: #FF4900; /* Change the color on hover */
+}
 
 /*Contact*/
 #contact {
@@ -2256,8 +2266,10 @@ figcaption {
     .banner .rec-1{
         left: 50px;
     }
+
     .banner .rec-2{
     }
+
     .banner .frame-bar-1, .banner .frame-bar-2 {
         left: 0;
         right: 0;

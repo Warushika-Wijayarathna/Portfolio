@@ -1336,6 +1336,18 @@ address {
 */
 
 /* Hover over a card to flip, can tab too. */
+#assignments {
+    width: 100%;
+    background: radial-gradient(152.63% 394.85% at 55.86% 77.05%, #242424 18.38%, #FF4900 100%);
+    margin: 0 0 0 -8px;
+}
+
+#assignments h2 {
+    padding: 20px;
+    margin: 0;
+    width: 95%;
+    font-size: 48px;
+}
 
 /* default */
 #flip *,
@@ -1349,13 +1361,10 @@ address {
 /* body */
 #flip {
     min-height: 100vh;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: -8px;
-    background: radial-gradient(152.63% 394.85% at 55.86% 77.05%, #242424 18.38%, #FF4900 100%);
     font-family: 'Inter', sans-serif;
     gap: 2%;
 }
@@ -1453,14 +1462,15 @@ figcaption {
     display: block;
 
     width: auto;
-    margin-top: 12%;
+    margin: 12% auto;
     padding: 8px 22px;
 
+    font-size: 24px;
     font-weight: bold;
     line-height: 1.6;
     letter-spacing: 2px;
     word-spacing: 6px;
-    text-align: right;
+    text-align: center;
 
     position: absolute;
     top: 0;
@@ -1529,7 +1539,7 @@ figcaption {
     margin-top: 12px;
     padding-bottom: 12px;
 
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
 
     position: relative;
@@ -1564,6 +1574,7 @@ figcaption {
 
 /* button */
 #flip button {
+    font-size: 20px;
     font-family: inherit;
     font-weight: bold;
     color: var(--white-1);

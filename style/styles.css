@@ -1373,6 +1373,7 @@ address {
     height: 500px;
     top: 5%;
     perspective: 1000px;
+
 }
 
 /* .flip-card */
@@ -1383,6 +1384,8 @@ address {
     position: relative;
     transform-style: preserve-3d;
     transition: .6s .1s;
+    border-radius: 24px;
+    border: #FFB822 2px solid;
 }
 
 /* hover and focus-within states */

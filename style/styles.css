@@ -2071,6 +2071,18 @@ figcaption {
         width: 100px;
     }
 
+    .inner-circle {
+        width: 90px;
+    }
+
+    .skill span, .label {
+        font-size: 12px;
+    }
+
+    .progress-circles span {
+        font-size: 1rem;
+    }
+
     /*#quotes {*/
     /*    font-size: 20px;*/
     /*}*/

@@ -364,6 +364,10 @@ address {
     padding: 0;
 }
 
+.topic-heading {
+    width: 95%;
+}
+
 
 /*Home Page*/
 
@@ -2078,6 +2082,7 @@ figcaption {
     .header {
         margin: 0 auto;
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -2203,9 +2208,27 @@ figcaption {
         margin: 45px 0 25px 0;
     }
 
-    .grid-section {
-        transform: scale(0.78);
+    #quotes, .quick-links ul li a, .my-services ul li, #rights, #quick-links-heading, #my-services-heading, address, .email {
+        font-size: 20px;
     }
+
+    #quotes-rights h1 {
+        font-size: 40px;
+    }
+
+    .po-box {
+        font-size: 25px;
+    }
+
+    .logo-img {
+        width: 65px;
+        object-fit: scale-down;
+    }
+
+    .logo-name {
+        font-size: 40px;
+    }
+
 }
 
 /*Tablet*/
@@ -2314,18 +2337,6 @@ figcaption {
         padding-top: 0;
     }
 
-    .context-heading-box {
-        height: 120px;
-        width: 500px;
-    }
-
-    .context-heading {
-        width: 452px;
-        height: 121px;
-        font-size: 40px;
-        line-height: 50px;
-    }
-
     .description {
         padding: 0;
         margin-left: auto;
@@ -2388,7 +2399,17 @@ figcaption {
         grid-template-rows: 50% 40%;
     }
 
+    .topic-heading {
+        width: 80%;
+    }
 
+    .context-heading-box {
+        width: 400px;
+    }
+
+    .context-heading {
+        margin: 0;
+    }
 }
 
 /*Mobile-Large*/

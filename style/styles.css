@@ -119,7 +119,7 @@ header {
     font-weight: 400;
     font-size: 32px;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 35px;
     color: #FFFFFF;
 }
 
@@ -1915,10 +1915,11 @@ figcaption {
 @media all and (max-width: 1440px) {
     .header {
         padding: 0 0 1% 1%;
-        margin: 0 auto;
+        margin: 0 1% 0 1%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 90%;
     }
 
     .main-home {
@@ -2072,7 +2073,7 @@ figcaption {
     }
 
     .inner-circle {
-        width: 90px;
+        width: 80px;
     }
 
     .skill span, .label {
@@ -2082,6 +2083,19 @@ figcaption {
     .progress-circles span {
         font-size: 1rem;
     }
+
+    #download {
+        transform: scale(0.7);
+    }
+
+    .footer .social-links {
+        transform: scale(0.7);
+    }
+
+    .footer .social-links-container .seperation-line {
+        margin: 45px 0 25px 0;
+    }
+
 
     /*#quotes {*/
     /*    font-size: 20px;*/
@@ -2112,27 +2126,55 @@ figcaption {
     /*}*/
 
     .grid-section {
-        transform: scale(0.9);
+        transform: scale(0.8);
     }
 
     .grid-section>div:nth-child(1) {
-        margin-left: -40%;
+        margin-left: -60%;
         width: 400px;
     }
 
     .grid-section>div:nth-child(2) {
-        margin-left: 25%;
+        margin-left: -15%;
     }
 
     .grid-section>div:nth-child(3) {
-        margin-left: 0;
+        margin-left: -95%;
         width: 200px;
     }
 
     .grid-section>div:nth-child(4) {
-        margin-left: 0;
+        margin-left: -95%;
         width: 200px;
     }
+
+    .grid-section>div:nth-child(5) {
+        margin-left: 80%;
+        width: 200px;
+    }
+
+    #logo-contact .logo-container, #logo-contact .email {
+        margin: 0;
+    }
+
+    #logo-contact .logo-container {
+        margin-top: -55%;
+        margin-left: -85%;
+    }
+
+    #logo-contact .email {
+        margin-left: -200%;
+        margin-top: 15%;
+    }
+
+    #body-common #main {
+        margin-left: -2%;
+    }
+
+    #body-common .context-section, #body-common .skills-achievements {
+        margin-left: 1.45%;
+    }
+
 }
 
 /*Laptop-Small*/

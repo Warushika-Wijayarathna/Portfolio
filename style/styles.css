@@ -2416,6 +2416,25 @@ figcaption {
 
     .grid-section {
         grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .grid-section .seperation-line {
+        width: 95%;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.37);
+        border-radius: 20px;
+        margin-top: 50px;
+        position: relative;
+        z-index: 10;
+        margin-bottom: 50px;
+    }
+
+    #quotes-rights {
+        text-align: center;
+    }
+
+    .quick-links {
+        grid-row: span 2;
     }
 }
 

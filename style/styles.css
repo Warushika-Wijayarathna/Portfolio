@@ -2415,27 +2415,51 @@ figcaption {
     }
 
     .grid-section {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto;
+        gap: 20px;
     }
+
+    #quotes-rights {
+        grid-column: 1 / span 2;
+        text-align: center;
+    }
+
     .grid-section .seperation-line {
+        grid-column: 1 / span 2;
         width: 95%;
         height: 1px;
         background: rgba(255, 255, 255, 0.37);
         border-radius: 20px;
         margin-top: 50px;
-        position: relative;
-        z-index: 10;
         margin-bottom: 50px;
     }
 
-    #quotes-rights {
+    .quick-links {
+        grid-column: 1 / 2;
+        grid-row: 3;
         text-align: center;
     }
 
-    .quick-links {
-        grid-row: span 2;
+    .my-services {
+        grid-column: 2 / 3;
+        grid-row: 3;
+        text-align: center;
     }
+
+    #logo-contact {
+        grid-column: 1 / span 2;
+        grid-row: 4;
+        justify-items: center;
+    }
+
+    address {
+        text-align: center;
+    }
+
+    .
+
 }
 
 /*Mobile-Large*/

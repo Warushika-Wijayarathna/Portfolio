@@ -2458,7 +2458,19 @@ figcaption {
         text-align: center;
     }
 
+    #body-common .context-section{
+        margin-top: 120%;
+        width: fit-content;
+    }
 
+    #body-common .skills-achievements {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #body-common .bio {
+        height: 170%;
+    }
 
     .skills-achievements .container {
         grid-template-columns: 1fr;
@@ -2473,6 +2485,13 @@ figcaption {
         margin: 0 ;
     }
 
+    .achievement-container {
+        padding: 0;
+    }
+
+    #body-common .context-section {
+        height: fit-content;
+    }
 }
 
 /*Mobile-Large*/

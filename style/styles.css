@@ -2460,7 +2460,6 @@ figcaption {
 
     #body-common .context-section{
         margin-top: 120%;
-        width: fit-content;
     }
 
     #body-common .skills-achievements {
@@ -2487,6 +2486,7 @@ figcaption {
 
     .achievement-container {
         padding: 0;
+        width: 80%;
     }
 
     #body-common .context-section {
@@ -2496,9 +2496,11 @@ figcaption {
 
 /*Mobile-Large*/
 @media all and (max-width: 425px) {
+
     .navigation {
         display: none;
     }
+
     .header {
         padding: 0;
         margin: 0 auto;
@@ -2506,6 +2508,7 @@ figcaption {
         justify-content: center;
         align-items: center;
     }
+
     .main-home {
         display: grid;
         grid-template-columns: 1fr;
@@ -2513,6 +2516,7 @@ figcaption {
         align-items: center;
         text-align: center;
     }
+
     .logo-img {
         width: 50px;
         height: 50px;
@@ -2521,11 +2525,13 @@ figcaption {
     .logo-name {
         font-size: 30px;
     }
+
     .banner {
         margin-left: auto;
         margin-right: auto;
         margin-top: -50px;
     }
+
     .banner-img img {
         top: -510px;
         right: 0;
@@ -2534,6 +2540,7 @@ figcaption {
         width: 340px;
         height: 340px;
     }
+
     .banner .rec-1, .banner .rec-2 {
         left: 0;
         right: 0;
@@ -2542,34 +2549,41 @@ figcaption {
         width: 315px;
         height: 350px;
     }
+
     .banner .rec-overlay{
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
     }
+
     .banner .rec-1{
         left: 50px;
     }
+
     .banner .rec-2{
     }
+
     .banner .frame-bar-1, .banner .frame-bar-2 {
         left: 0;
         right: 0;
         margin: 0 auto;
         background-color: #FF4900;
     }
+
     .banner .frame-bar-1 {
         height: 10px;
         width: 360px;
         top: 220px;
         left: -322px;
     }
+
     .banner .frame-bar-2 {
         height: 10px;
         width: 330px;
         top: 402px;
     }
+
     .banner-name {
         width: 800px;
         height: 200px;
@@ -2580,10 +2594,12 @@ figcaption {
         letter-spacing: 0.28em;
         line-height: 55px;
     }
+
     .context {
         margin-top: 130px;
         margin-left: 80px;
     }
+
     .context-bar {
         width: 10px;
         height: 90px;
@@ -2592,36 +2608,43 @@ figcaption {
         margin-right: 30px;
         padding-top: 0;
     }
+
     .context-heading-box {
         height: 120px;
         width: 500px;
     }
+
     .context-heading {
         width: 452px;
         height: 121px;
         font-size: 40px;
         line-height: 50px;
     }
+
     .description {
         padding: 0;
         margin-left: auto;
         margin-right: auto;
         margin-top: -200px;
     }
+
     .context-para {
         font-size: 18px;
         width: 500px;
         top: -10px;
     }
+
     .social-links img {
         width: 30px;
         height: 30px;
         margin-right: 15px;
         transition: transform 0.3s ease;
     }
+
     .social-links-container {
         margin-top: -20px;
     }
+
     #learn-more {
         width: 163px;
         height: 36.34px;
@@ -2629,21 +2652,32 @@ figcaption {
         font-size: 14px;
         margin-top: -20px;
     }
+
     .developer-name{
         font-size: 22px;
         margin-left: 0;
         margin-right: 0;
     }
+
     .mini-footer {
         height: 50px;
         justify-content: center;
     }
+
     .banner-name {
         font-size: 40px;
         line-height: 49px;
     }
+
     #body-home .context-bar {
         display: none;
+    }
+
+    .description-tbl{
+        width: fit-content;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 

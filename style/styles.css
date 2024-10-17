@@ -2458,7 +2458,20 @@ figcaption {
         text-align: center;
     }
 
-    .
+
+
+    .skills-achievements .container {
+        grid-template-columns: 1fr;
+    }
+
+    #download-btn {
+        text-align: center;
+    }
+
+    #download {
+        transform: scale(0.7);
+        margin: 0 ;
+    }
 
 }
 

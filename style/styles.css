@@ -218,7 +218,7 @@ header {
 
 .grid-section {
     display: grid;
-    grid-template-columns: 25% 1% 12% 12% 50%;
+    grid-template-columns: 30% 8% 15% 15% 31%;
     width: 95%;
     margin: 0 auto;
 }
@@ -2059,82 +2059,16 @@ figcaption {
     }
 
 
-    /*#quotes {*/
-    /*    font-size: 20px;*/
+    /*#body-common #main {*/
+    /*    margin-left: -2%;*/
     /*}*/
 
-    /*.footer #quotes-rights h1 {*/
-    /*    font-size: 36px;*/
-    /*}*/
-
-    /*.footer #quotes-rights #rights {*/
-    /*    font-size: 20px;*/
-    /*}*/
-
-    /*.footer #quick-links-heading {*/
-    /*    font-size: 20px;*/
-    /*}*/
-
-    /*.footer li {*/
-    /*    font-size: 20px;*/
-    /*}*/
-
-    /*#my-services-heading {*/
-    /*    font-size: 20px;*/
-    /*}*/
-
-    /*#logo-contact {*/
-    /*    transform: scale(0.7);*/
+    /*#body-common .context-section, #body-common .skills-achievements {*/
+    /*    margin-left: 1.45%;*/
     /*}*/
 
     .grid-section {
-        transform: scale(0.8);
-    }
-
-    .grid-section>div:nth-child(1) {
-        margin-left: -60%;
-        width: 400px;
-    }
-
-    .grid-section>div:nth-child(2) {
-        margin-left: -15%;
-    }
-
-    .grid-section>div:nth-child(3) {
-        margin-left: -95%;
-        width: 200px;
-    }
-
-    .grid-section>div:nth-child(4) {
-        margin-left: -95%;
-        width: 200px;
-    }
-
-    .grid-section>div:nth-child(5) {
-        margin-left: 80%;
-        width: 200px;
-    }
-
-    #logo-contact .logo-container, #logo-contact .email {
-        margin: 0;
-    }
-
-    #logo-contact .logo-container {
-        margin-top: -55%;
-        margin-left: -85%;
-    }
-
-    #logo-contact .email {
-        margin-left: -200%;
-        margin-top: 15%;
-    }
-
-    #body-common #main {
-        margin-left: -2%;
-    }
-
-    #body-common .context-section, #body-common .skills-achievements {
-        margin-left: 1.45%;
+        transform: scale(0.9);
     }
 
 }
@@ -2265,43 +2199,12 @@ figcaption {
         transition: transform 0.3s ease;
     }
 
-    .social-links-container {
-        margin-top: -20px;
-    }
-
-    #quotes {
-        font-size: 20px;
-    }
-
-    .footer h1{
-        font-size: 36px;
+    .footer .social-links-container .seperation-line {
+        margin: 45px 0 25px 0;
     }
 
     .grid-section {
-        transform: scale(0.7);
-    }
-
-    .grid-section>div:nth-child(1) {
-        margin-left: -75%;
-        width: 400px;
-    }
-
-    .grid-section>div:nth-child(2) {
-        margin-left: -100px;
-    }
-
-    .grid-section>div:nth-child(3) {
-        margin-left: 0;
-        width: 200px;
-    }
-
-    .grid-section>div:nth-child(4) {
-        margin-left: 0;
-        width: 200px;
-    }
-
-    .grid-section>div:nth-child(5) {
-        margin-left: -150px;
+        transform: scale(0.78);
     }
 }
 

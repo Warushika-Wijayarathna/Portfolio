@@ -332,7 +332,6 @@ header {
     font-weight: 200;
 }
 
-
 .grid-section>div:nth-child(5) {
     text-align: right;
     margin-right: 50px;
@@ -1329,13 +1328,6 @@ address {
     margin-left: -300px;
 }
 
-/*
-    ================================
-        Best Viewed In Full Page
-    ================================
-*/
-
-/* Hover over a card to flip, can tab too. */
 #assignments {
     width: 100%;
     background: radial-gradient(152.63% 394.85% at 55.86% 77.05%, #242424 18.38%, #FF4900 100%);
@@ -2074,6 +2066,61 @@ figcaption {
         transform: scale(0.6);
         margin-left: -20%;
     }
+
+    .circular-progress {
+        width: 100px;
+    }
+
+    /*#quotes {*/
+    /*    font-size: 20px;*/
+    /*}*/
+
+    /*.footer #quotes-rights h1 {*/
+    /*    font-size: 36px;*/
+    /*}*/
+
+    /*.footer #quotes-rights #rights {*/
+    /*    font-size: 20px;*/
+    /*}*/
+
+    /*.footer #quick-links-heading {*/
+    /*    font-size: 20px;*/
+    /*}*/
+
+    /*.footer li {*/
+    /*    font-size: 20px;*/
+    /*}*/
+
+    /*#my-services-heading {*/
+    /*    font-size: 20px;*/
+    /*}*/
+
+    /*#logo-contact {*/
+    /*    transform: scale(0.7);*/
+    /*}*/
+
+    .grid-section {
+        transform: scale(0.9);
+    }
+
+    .grid-section>div:nth-child(1) {
+        margin-left: -40%;
+        width: 400px;
+    }
+
+    .grid-section>div:nth-child(2) {
+        margin-left: 25%;
+    }
+
+    .grid-section>div:nth-child(3) {
+        margin-left: 0;
+        width: 200px;
+    }
+
+    .grid-section>div:nth-child(4) {
+        margin-left: 0;
+        width: 200px;
+    }
 }
 
 /*Laptop-Small*/
@@ -2206,6 +2253,40 @@ figcaption {
         margin-top: -20px;
     }
 
+    #quotes {
+        font-size: 20px;
+    }
+
+    .footer h1{
+        font-size: 36px;
+    }
+
+    .grid-section {
+        transform: scale(0.7);
+    }
+
+    .grid-section>div:nth-child(1) {
+        margin-left: -75%;
+        width: 400px;
+    }
+
+    .grid-section>div:nth-child(2) {
+        margin-left: -100px;
+    }
+
+    .grid-section>div:nth-child(3) {
+        margin-left: 0;
+        width: 200px;
+    }
+
+    .grid-section>div:nth-child(4) {
+        margin-left: 0;
+        width: 200px;
+    }
+
+    .grid-section>div:nth-child(5) {
+        margin-left: -150px;
+    }
 }
 
 /*Tablet*/

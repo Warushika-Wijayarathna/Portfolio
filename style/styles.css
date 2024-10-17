@@ -634,7 +634,6 @@ address {
 
 .body-common .context-heading-box {
     position: relative;
-    width: 800px;
     margin-left: 80px;
     margin-top: -20px;
 }
@@ -2404,11 +2403,19 @@ figcaption {
     }
 
     .context-heading-box {
-        width: 400px;
+        width: 500px;
     }
 
     .context-heading {
         margin: 0;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .grid-section {
+        grid-template-columns: 1fr;
     }
 }
 

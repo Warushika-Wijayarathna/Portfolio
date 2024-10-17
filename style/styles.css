@@ -218,8 +218,9 @@ header {
 
 .grid-section {
     display: grid;
-    grid-template-columns: 20% 1% 10% 10% 59%;
-    width: 100%;
+    grid-template-columns: 25% 1% 12% 12% 50%;
+    width: 95%;
+    margin: 0 auto;
 }
 
 #quotes {
@@ -277,10 +278,11 @@ header {
     margin-bottom: 5px;
 }
 
-.quick-links ul li a {
+.quick-links ul li a, .my-services ul li{
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 200;
+    font-size: 24px;
 }
 
 .quick-links ul li a:hover {

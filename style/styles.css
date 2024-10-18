@@ -1960,13 +1960,13 @@ figcaption {
     }
 
     .banner-name {
-        width: fit-content;
+        width: 800px;
         height: 200px;
         left: -50px;
         margin: 0 auto;
         top: 410px;
-        font-size: 45px;
-        letter-spacing: 0.08em;
+        font-size: 50px;
+        letter-spacing: 0.18em;
         line-height: 55px;
     }
 
@@ -2302,11 +2302,10 @@ figcaption {
     .banner-name {
         width: 800px;
         height: 200px;
-        left: -50px;
         margin: 0 auto;
         top: 410px;
         font-size: 50px;
-        letter-spacing: 0.28em;
+        letter-spacing: 0.08em;
         line-height: 55px;
     }
 
@@ -2325,10 +2324,12 @@ figcaption {
     }
 
     .description {
-        padding: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -200px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #body-home .context-heading{
+        text-align: center;
     }
 
     .context-para {

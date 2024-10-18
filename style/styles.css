@@ -2231,8 +2231,9 @@ figcaption {
     }
 
     .main-home {
+        margin-top: 25%;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-rows: 50% 40%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -2243,9 +2244,7 @@ figcaption {
     }
 
     .banner {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -50px;
+        margin: 5% auto;
     }
 
     .banner-img img {
@@ -2324,10 +2323,19 @@ figcaption {
     }
 
     .description {
+        margin-top: -40%;
         display: grid;
         grid-template-columns: 1fr;
+        justify-content: center;
     }
 
+    .description .context {
+        margin: 0;
+    }
+
+    .description .social-links-container {
+        margin-left: 10%;
+    }
     #body-home .context-heading{
         text-align: center;
     }
@@ -2499,20 +2507,15 @@ figcaption {
         display: none;
     }
 
-    .header {
-        padding: 0;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .main-home {
+        margin-top: 40%;
+        margin-left: 40%;
+        margin-right: 20%;
     }
 
-    .main-home {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+    .header {
+        margin-left: 30%;
+        margin-right: 20%;
     }
 
     .logo-img {
@@ -2522,12 +2525,6 @@ figcaption {
 
     .logo-name {
         font-size: 30px;
-    }
-
-    .banner {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -50px;
     }
 
     .banner-img img {
@@ -2586,7 +2583,7 @@ figcaption {
         margin: 0 auto;
         top: 410px;
         font-size: 50px;
-        letter-spacing: 0.28em;
+        letter-spacing: 0.18em;
         line-height: 55px;
     }
 
@@ -2599,15 +2596,19 @@ figcaption {
         margin-left: -20px;
     }
 
-    #body-common .context-bar {
-        height: 50px;
-        width: 8px;
-        margin-right: 20px;
-    }
-
     .context-heading-box {
         height: 120px;
-        width: 380px;
+        width: 100%;
+    }
+
+    #body-home .context-heading {
+        text-align: center;
+    }
+
+    .description {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
     }
 
     .context-heading {
@@ -2615,13 +2616,6 @@ figcaption {
         font-size: 30px;
         line-height: 50px;
         width: 320px;
-    }
-
-    .description {
-        padding: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -200px;
     }
 
     .context-para {

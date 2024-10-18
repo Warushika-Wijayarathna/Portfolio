@@ -2839,7 +2839,9 @@ figcaption {
         margin: 0;
     }
 
-    .flip-card
+    #blog #blog-cards .slide h3, #blog #blog-cards .slide h3 span{
+        font-size: 12px;
+    }
 }
 
 /*Mobile-Medium*/
@@ -3066,6 +3068,10 @@ figcaption {
     .count-bar {
         height: 100px;
     }
+
+    .context-heading-box {
+        display: none;
+    }
 }
 
 /*Mobile-Small*/
@@ -3161,5 +3167,8 @@ figcaption {
         margin: 0;
     }
 
+    .context-heading-box {
+        display: none;
+    }
 }
 

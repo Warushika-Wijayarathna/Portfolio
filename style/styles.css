@@ -2892,7 +2892,7 @@ figcaption {
 
     .bio-grid>div:nth-child(2) {
         transform: scale(0.5);
-        margin: 0 ;
+        margin: -40% 0 0 0;
     }
 
     .context-heading {
@@ -2903,12 +2903,28 @@ figcaption {
         width: 7px;
         height: 40px;
         margin-top: -15px;
-        margin-left: ;
+        margin-left: -100px;
     }
 
     #body-common .context-heading {
         width: 250px;
         text-align: left;
+    }
+
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .topic-heading {
+        text-align: center;
+    }
+
+    .card div{
+        font-size: 12px;
+    }
+
+    #body-common .context-section {
+        margin-top: 1000px;
     }
 }
 

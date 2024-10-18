@@ -2673,7 +2673,11 @@ figcaption {
         margin: 10% 0 35% 35%;
     }
 
-    .
+    #body-common .context-section {
+        margin-top: 250%;
+    }
+
+    #body-common .context-section
 }
 
 /*Mobile-Medium*/

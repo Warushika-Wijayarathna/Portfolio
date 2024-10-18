@@ -2281,6 +2281,24 @@ figcaption {
         height: fit-content;
         padding-bottom: 80px;
     }
+
+    .form-grid .seperation-line {
+        display: none;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #contact .skills-achievements {
+        height: fit-content;
+        padding-bottom: 350px;
+    }
+
+    #contact form {
+        padding-left: 0;
+    }
 }
 
 /*Tablet*/
@@ -2684,7 +2702,7 @@ figcaption {
         margin-top: -20px;
     }
 
-    #learn-more {
+    #learn-more, #contact .input-button {
         width: 163px;
         height: 36.34px;
         border-radius: 40px;
@@ -2844,9 +2862,34 @@ figcaption {
         margin: 0;
     }
 
-    #blog #blog-cards .slide h3, #blog #blog-cards .slide h3 span{
+    #blog #blog-cards .slide h3, #blog #blog-cards .slide h3 span {
         font-size: 12px;
     }
+
+    #contact #details tr td img {
+        width: 40px;
+        aspect-ratio: 1/1;
+        object-fit: scale-down;
+    }
+
+    #contact #details tr td {
+        font-size: 16px;
+    }
+
+    .form-grid {
+        width: 80%;
+        margin-left: -10%;
+        top: 200px;
+    }
+
+    #contact form label {
+        font-size: 16px;
+    }
+
+    #contact .input-button {
+        margin-top: 5%;
+    }
+
 }
 
 /*Mobile-Medium*/
@@ -3077,6 +3120,32 @@ figcaption {
     .context-heading-box {
         display: none;
     }
+
+    #contact #details tr td img {
+        width: 30px;
+    }
+
+    #contact #details tr td {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+
+    .form-grid {
+        width: 80%;
+    }
+
+    #contact form label {
+        font-size: 12px;
+    }
+
+    #contact .input-button {
+        margin-top: 5%;
+    }
+
+    #contact #form #subject, #contact #form #email {
+        height: 30px;
+    }
+
 }
 
 /*Mobile-Small*/
@@ -3174,6 +3243,32 @@ figcaption {
 
     .context-heading-box {
         display: none;
+    }
+
+    #contact #details tr td img {
+        width: 30px;
+    }
+
+    #contact #details tr td {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+
+    .form-grid {
+        width: 80%;
+        margin-left: -10%;
+    }
+
+    #contact form label {
+        font-size: 12px;
+    }
+
+    #contact .input-button {
+        margin-top: 5%;
+    }
+
+    #contact #form #subject, #contact #form #email {
+        height: 30px;
     }
 }
 

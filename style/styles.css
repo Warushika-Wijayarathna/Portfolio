@@ -1097,7 +1097,7 @@ address {
     grid-template-rows: 1fr;
     text-align: right;
     margin-top: 100px;
-    margin-right: 80px;
+    justify-content: right;
 }
 
 .services .context-heading {
@@ -1228,11 +1228,10 @@ address {
 }
 
 .project-grid {
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     margin-top: 200px;
-    margin-left: 40px;
 }
 
 .project-cards {
@@ -2919,8 +2918,12 @@ figcaption {
         text-align: center;
     }
 
-    .card div{
+    .card .front .title h2 {
         font-size: 12px;
+    }
+
+    .card .back p, .card .back a {
+        font-size: 8px;
     }
 
     #body-common .context-section {

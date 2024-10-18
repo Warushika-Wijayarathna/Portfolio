@@ -2223,20 +2223,12 @@ figcaption {
     .navigation {
         display: none;
     }
+
     .header {
         margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .main-home {
-        margin-top: 25%;
-        display: grid;
-        grid-template-rows: 50% 40%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
     .logo-img {
@@ -2508,9 +2500,7 @@ figcaption {
     }
 
     .main-home {
-        margin-top: 40%;
-        margin-left: 40%;
-        margin-right: 20%;
+        margin-left: 50%;
     }
 
     .header {
@@ -2577,13 +2567,11 @@ figcaption {
     }
 
     .banner-name {
-        width: 800px;
         height: 200px;
-        left: -50px;
         margin: 0 auto;
         top: 410px;
         font-size: 50px;
-        letter-spacing: 0.18em;
+        letter-spacing: 0.08em;
         line-height: 55px;
     }
 
@@ -2596,33 +2584,14 @@ figcaption {
         margin-left: -20px;
     }
 
-    .context-heading-box {
-        height: 120px;
-        width: 100%;
+    .context-heading {
+        font-size: 35px;
     }
 
     #body-home .context-heading {
         text-align: center;
     }
 
-    .description {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-    }
-
-    .context-heading {
-        height: 121px;
-        font-size: 30px;
-        line-height: 50px;
-        width: 320px;
-    }
-
-    .context-para {
-        font-size: 18px;
-        width: 500px;
-        top: -10px;
-    }
 
     .social-links img {
         width: 30px;
@@ -2713,29 +2682,30 @@ figcaption {
     .po-box {
         font-size: 20px;
     }
+
+    .description {
+        margin-top: -500px;
+        margin-left: 15%;
+    }
+
+    #body-common .header {
+        margin: 0 auto;
+    }
+
+    #body-common .bio-grid {
+        margin: 0 auto;
+    }
+
+    #body-common .context-heading-box, #body-common .context-heading {
+        width: 350px;
+        font-size: 30px;
+    }
 }
 
 /*Mobile-Medium*/
 @media all and (max-width: 375px) {
     .navigation {
         display: none;
-    }
-
-    .header {
-        padding: 0;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30px;
-    }
-
-    .main-home {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
     .logo-img {
@@ -2813,7 +2783,7 @@ figcaption {
         margin: 0 auto;
         top: 310px;
         font-size: 40px;
-        letter-spacing: 0.28em;
+        letter-spacing: 0.08em;
         line-height: 55px;
     }
 
@@ -2840,13 +2810,6 @@ figcaption {
         font-size: 30px;
         line-height: 50px;
         text-align: center;
-    }
-
-    .description {
-        padding: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -200px;
     }
 
     .context-para {
@@ -2930,29 +2893,37 @@ figcaption {
     #body-common .context-section {
         margin-top: 1000px;
     }
+
+    .description {
+        margin-left: 30%;
+    }
+
+    #body-common .header {
+        margin: 0 auto;
+    }
+
+    #body-common .bio-grid {
+        margin: 0 auto;
+    }
+
+    .bio-grid>div:nth-child(2) {
+        margin-left: -10%;
+    }
+
+    #body-common .context-heading-box, #body-common .context-heading {
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .context-heading-box {
+      margin: 0;
+    }
 }
 
 /*Mobile-Small*/
 @media all and (max-width: 320px) {
     .navigation {
         display: none;
-    }
-
-    .header {
-        padding: 0;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30px;
-    }
-
-    .main-home {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
     .logo-img {
@@ -3030,9 +3001,8 @@ figcaption {
         margin: 0 auto;
         top: 310px;
         font-size: 40px;
-        letter-spacing: 0.28em;
+        letter-spacing: 0.08em;
         line-height: 55px;
-
     }
 }
 

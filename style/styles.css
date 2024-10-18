@@ -2664,12 +2664,16 @@ figcaption {
     .description-qoute {
         text-align: center;
         width: 400px;
-        margin: 0 auto;
+        margin: 50% 0 35% 35%;
     }
 
     .passion {
-        width: 300px;
+        text-align: center;
+        width: 400px;
+        margin: 10% 0 35% 35%;
     }
+
+    .
 }
 
 /*Mobile-Medium*/

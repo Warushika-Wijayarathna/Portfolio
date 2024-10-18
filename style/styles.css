@@ -6,9 +6,9 @@ h1, h2, h3, h4, h5, h6, p, div {
     font-family: 'Inter', sans-serif;
 }
 
-body {
-    background-color: #242424;
-}
+/*body {*/
+/*    background-color: #242424;*/
+/*}*/
 
 #main{
     width: 100%;
@@ -22,6 +22,7 @@ header {
     padding-top: 0;
     padding-left: 5%;
     height: 100px;
+    width: 95%;
 }
 
 .logo-container {
@@ -1691,7 +1692,7 @@ figcaption {
 }
 
 #contact .skills-achievements {
-    height: 843px;
+    height: 943px;
     margin-top: -130px;
     position: relative;
 }
@@ -1702,11 +1703,11 @@ figcaption {
 }
 
 .form-grid {
-    width: 96%;
+    width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 49% 1% 49%;
     position: relative;
-    top: 400px;
+    top: 300px;
     left: 80px;
 }
 
@@ -1742,23 +1743,21 @@ figcaption {
 #contact .form-grid .seperation-line {
     height: 350px;
     width: 1px;
-    top: -120px;
-    left: 200px;
 }
 
 #contact form {
-    margin-left: -350px;
-    margin-top: -150px;
+    padding-left: 10%;
 }
 
 #contact form label {
     font-size: 20px;
+    text-align: left;
 }
 
 #contact form #email,
 #contact form #subject,
 #contact form #message {
-    width: 745px;
+    width: 90%;
     height: 53px;
     background: rgba(60, 60, 60, 0.56);
     border-radius: 50px;
@@ -1773,9 +1772,11 @@ figcaption {
 }
 
 #contact .input-button {
-    margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 2%;
+    margin-left: 25%;
 }
+
+
 
 
 /*Blog*/

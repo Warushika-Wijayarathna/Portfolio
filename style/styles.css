@@ -2475,6 +2475,15 @@ figcaption {
     #body-common .context-section {
         height: fit-content;
     }
+
+    #body-common .context-section .context-grid>div:nth-child(1) {
+        display: none;
+    }
+
+    #body-common tr {
+        font-size: 16px;
+    }
+
 }
 
 /*Mobile-Large*/
@@ -2677,7 +2686,33 @@ figcaption {
         margin-top: 250%;
     }
 
-    #body-common .context-section
+    #body-common .context-section .context-grid>div:nth-child(1) {
+        display: none;
+    }
+
+    #body-common .topic-heading:nth-child(1) {
+        font-size: 54px;
+    }
+
+    #body-common .topic-heading:nth-child(2) {
+        font-size: 30px;
+    }
+
+    #body-common tr {
+        font-size: 20px;
+    }
+
+    #quotes, .quick-links ul li a, .my-services ul li, #rights, #quick-links-heading, #my-services-heading, address, .email {
+        font-size: 16px;
+    }
+
+    #quotes-rights h1 {
+        font-size: 30px;
+    }
+
+    .po-box {
+        font-size: 20px;
+    }
 }
 
 /*Mobile-Medium*/
@@ -2853,6 +2888,27 @@ figcaption {
     .banner-name {
         font-size: 30px;
         line-height: 37px;
+    }
+
+    .bio-grid>div:nth-child(2) {
+        transform: scale(0.5);
+        margin: 0 ;
+    }
+
+    .context-heading {
+        font-size: 25px;
+    }
+
+    #body-common .context-bar {
+        width: 7px;
+        height: 40px;
+        margin-top: -15px;
+        margin-left: ;
+    }
+
+    #body-common .context-heading {
+        width: 250px;
+        text-align: left;
     }
 }
 

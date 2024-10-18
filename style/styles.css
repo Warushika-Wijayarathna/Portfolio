@@ -538,6 +538,7 @@ address {
     height: 180px;
     display: flex;
     flex-direction: row;
+    width: fit-content;
 }
 
 .context-bar {
@@ -1878,6 +1879,7 @@ figcaption {
 /*Responsive*/
 
 /*Laptop-Large*/
+
 @media all and (max-width: 1440px) {
     .header {
         padding: 0 0 1% 1%;
@@ -1889,10 +1891,7 @@ figcaption {
     }
 
     .main-home {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         justify-content: center;
-        align-items: center;
         text-align: center;
     }
 
@@ -1935,9 +1934,6 @@ figcaption {
         left: 50px;
     }
 
-    .banner .rec-2 {
-    }
-
     .banner .frame-bar-1, .banner .frame-bar-2 {
         left: 0;
         right: 0;
@@ -1975,7 +1971,8 @@ figcaption {
     }
 
     .context-para {
-        font-size: 20px;
+        width: 90%;
+        font-size: 18px;
     }
 
     #contact .context-bar, #blog .context-bar, #body-common .context-bar {
@@ -2031,11 +2028,15 @@ figcaption {
         font-size: 1rem;
     }
 
-    #download {
+    #download, #learn-more {
         transform: scale(0.7);
     }
 
-    .footer .social-links {
+    .context, #body-home .context-heading-box {
+        height: fit-content;
+    }
+
+    .social-links {
         transform: scale(0.7);
     }
 
@@ -2543,9 +2544,6 @@ figcaption {
         left: 50px;
     }
 
-    .banner .rec-2{
-    }
-
     .banner .frame-bar-1, .banner .frame-bar-2 {
         left: 0;
         right: 0;
@@ -2582,16 +2580,26 @@ figcaption {
         margin-left: 80px;
     }
 
+    .topic {
+        margin-left: -20px;
+    }
+
+    #body-common .context-bar {
+        height: 50px;
+        width: 8px;
+        margin-right: 20px;
+    }
+
     .context-heading-box {
         height: 120px;
-        width: 500px;
+        width: 380px;
     }
 
     .context-heading {
-        width: 452px;
         height: 121px;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 50px;
+        width: 320px;
     }
 
     .description {
@@ -2651,6 +2659,16 @@ figcaption {
         height: fit-content;
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .description-qoute {
+        text-align: center;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .passion {
+        width: 300px;
     }
 }
 

@@ -1139,11 +1139,10 @@ address {
 }
 
 .service-cards {
-    margin-left: 10%;
-    margin-right: 10%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 1%;
     width: 100%;
 }
@@ -1233,12 +1232,13 @@ address {
 }
 
 .project-grid {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-auto-flow: column;
     margin-top: 200px;
     margin-right: 2%;
     margin-left: 2%;
+    gap: 20%;
 }
 
 .project-cards {
@@ -1264,8 +1264,9 @@ address {
 }
 
 .work-ethics {
+    width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
     margin-top: 50px;
     margin-left: 20px;
@@ -1282,23 +1283,6 @@ address {
 .work-ethics .context-heading {
     text-align: left;
     margin-left: 20px;
-}
-
-.work-ethics .context-bar {
-    margin: 0;
-}
-
-.work-ethics .context-heading-box {
-    margin-top: 80px;
-}
-
-.work-ethics div:nth-child(3) {
-    margin-top: -180px;
-}
-
-.work-ethics div:nth-child(2) {
-    margin-top: 120px;
-    margin-left: -300px;
 }
 
 #assignments {
@@ -1348,7 +1332,6 @@ address {
     height: 500px;
     top: 5%;
     perspective: 1000px;
-
 }
 
 /* .flip-card */
@@ -2003,12 +1986,17 @@ figcaption {
         padding-top: 0;
     }
 
-    .context-heading {
+    .context-heading, .services .context-heading {
         width: 452px;
         height: 121px;
         font-size: 40px;
         line-height: 50px;
         margin-left: 0;
+    }
+
+    .quote {
+        margin-top: 16%;
+        font-size: 30px;
     }
 
     .bio-grid>div:nth-child(1) {
@@ -2076,7 +2064,20 @@ figcaption {
         transform: scale(0.9);
     }
 
+    .project-grid {
+        width: 80%;
+        gap: 2%;
+    }
 
+    .work-para p {
+        margin-top: -40%;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    #flip {
+        padding-bottom: 2%;
+    }
 }
 
 /*Laptop-Small*/
@@ -2134,8 +2135,7 @@ figcaption {
     .banner .rec-1{
         left: 50px;
     }
-    .banner .rec-2{
-    }
+
     .banner .frame-bar-1, .banner .frame-bar-2 {
         left: 0;
         right: 0;
@@ -2231,6 +2231,10 @@ figcaption {
         font-size: 40px;
     }
 
+    .project-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 /*Tablet*/

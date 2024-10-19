@@ -1771,6 +1771,7 @@ figcaption {
 
 #contact form #message {
     height: 185px;
+    padding: 5%;
 }
 
 #contact .input-button {

@@ -7,7 +7,8 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-    background-color: #242424;
+    /*background-color: #242424;*/
+    background-color: #FFB822;
 }
 
 #main{
@@ -23,6 +24,7 @@ header {
     padding-left: 5%;
     height: 100px;
     width: 95%;
+    gap:20%;
 }
 
 .logo-container {
@@ -60,7 +62,7 @@ header {
 .navigation ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 10% 0 0;
     justify-content: space-around;
     position: relative;
     display: flex;
@@ -390,6 +392,7 @@ address {
     justify-content: center;
     align-items: center;
     height: fit-content;
+    padding-top: 15%;
 }
 
 .banner-frame {
@@ -525,9 +528,10 @@ address {
 
 .main-home {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 40% 40%;
     justify-content: center;
     height: fit-content;
+    gap: 20%;
 }
 
 .context, .description .social-links-container {
@@ -2167,7 +2171,7 @@ figcaption {
         margin: 0 auto;
         top: 410px;
         font-size: 50px;
-        letter-spacing: 0.28em;
+        letter-spacing: 0.18em;
         line-height: 55px;
     }
 
@@ -2888,6 +2892,10 @@ figcaption {
 
     #contact .input-button {
         margin-top: 5%;
+    }
+
+    .main-home .context-heading-box {
+        display: block;
     }
 
 }

@@ -2604,6 +2604,7 @@ figcaption {
 
     .header {
         margin: 0 auto;
+        margin-left: 30%;
     }
 
     .logo-img {
@@ -2689,7 +2690,6 @@ figcaption {
     #body-home .context-heading {
         text-align: center;
     }
-
 
     .social-links img {
         width: 30px;
@@ -3234,10 +3234,6 @@ figcaption {
     }
 
     .services {
-        margin: 0;
-    }
-
-    #body-common .header {
         margin: 0;
     }
 

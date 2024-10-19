@@ -1766,6 +1766,7 @@ figcaption {
     margin-top: 20px;
     border: none;
     color: rgba(255, 255, 255, 0.65);
+    padding-left: 2%;
 }
 
 #contact form #message {

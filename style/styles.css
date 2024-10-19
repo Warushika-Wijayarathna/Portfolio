@@ -2096,9 +2096,6 @@ figcaption {
 @media all and (max-width: 1024px) {
     .header {
         margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .main-home {

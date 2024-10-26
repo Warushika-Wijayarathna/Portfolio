@@ -27,6 +27,9 @@
 
   <!-- normalize.css-->
   <link rel="stylesheet" href="style/normalize.css">
+
+  <!--AOS Library-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 
@@ -77,7 +80,7 @@
 
       <!--Blog Cards Section-->
       <section id="blog-cards">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
           <div
                   class="slide"
                   style="background-image: url('images/blog2.png');"
@@ -207,8 +210,15 @@
     </div>
   </footer>
 
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
   <!-- Custom JS-->
   <script src="scripts/script.js"></script>
+
 </body>
 
 </html>

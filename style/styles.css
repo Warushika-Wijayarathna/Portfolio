@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-    background-color: #242424;
+    background-color: #770633;
     /*background-color: #FFB822;*/
 }
 
@@ -1254,8 +1254,7 @@ address {
 .project-grid {
     padding-top: 120px;
     display: grid;
-    grid-template-columns: 60% 40%;
-    width: 98%;
+    grid-template-columns: 1fr 1fr;
     margin: 0 auto;
 }
 
@@ -1349,7 +1348,6 @@ address {
 }
 
 .work-ethics {
-    width: 90%;
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
@@ -1756,10 +1754,6 @@ figcaption {
     color: #FF4900; /* Change the color on hover */
 }
 
-.services header {
-    margin-top: 2%;
-}
-
 .services .email span {
     color: #FF4900;
 }
@@ -1969,7 +1963,46 @@ figcaption {
 }
 
 /*Responsive*/
-
+@media all and (max-width: 1546px) {
+    .grid-section {
+        transform: scale(0.9);
+    }
+    .context-grid .seperation-line {
+        width: 98%;
+    }
+}
+@media all and (max-width: 1380px) {
+    .grid-section {
+        transform: scale(0.8);
+    }
+}
+@media all and (max-width: 1132px) {
+    .navigation ul li a {
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 1180px) {
+    .grid-section {
+        transform: scale(0.7);
+    }
+}
+@media all and (max-width: 914px){
+    .bio-grid>div:nth-child(2) {
+        transform: scale(0.4);
+    }
+    .bio-grid {
+        grid-template-columns: 58% 44%;
+    }
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+    #last-line {
+        width: 90%;
+    }
+    .navigation {
+        right: 0;
+    }
+}
 @media all and (max-width: 1626px) {
     .bio-grid>div:nth-child(1) {
         transform: scale(0.7);
@@ -2173,10 +2206,6 @@ figcaption {
     /*#body-common .context-section, #body-common .skills-achievements {*/
     /*    margin-left: 1.45%;*/
     /*}*/
-
-    .grid-section {
-        transform: scale(0.9);
-    }
 
     .project-grid {
         width: 80%;
@@ -2437,10 +2466,6 @@ figcaption {
         transform: scale(0.5);
     }
 
-    .bio-grid {
-        grid-template-columns: 90%;
-        grid-template-rows: 70% 30%;
-    }
 }
 
 /*Tablet*/

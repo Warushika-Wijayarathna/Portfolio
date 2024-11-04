@@ -1991,13 +1991,14 @@ figcaption {
         transform: scale(0.4);
     }
     .bio-grid {
-        grid-template-columns: 58% 44%;
+        grid-template-columns: 58% 42%;
     }
     .education-grid {
         grid-template-columns: 1fr;
     }
     #last-line {
-        width: 90%;
+        width: 9
+        0%;
     }
     .navigation {
         right: 0;

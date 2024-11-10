@@ -52,5 +52,8 @@ function mouseLeave(event, card) {
     card.style.transform = "";
 }
 
-
+function toggleMenu() {
+    const nav = document.querySelector('.navigation');
+    nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+}
 

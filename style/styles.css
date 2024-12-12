@@ -20,14 +20,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 0;
+    padding-top: 20px;
     padding-left: 5%;
-    height: 100px;
+
+    height: 50px;
     width: 90%;
+    /* background-color: #D84300; */
 }
 
 .logo-container {
-    padding-top: 30px;
+    padding-top: 0;
     position: relative;
     display: flex; 
     align-items: center
@@ -38,7 +40,7 @@ header {
     z-index: 2;
     color: #D9D9D9;
     font-family: "Nico Moji", serif;
-    font-size: 50px;
+    font-size: 32px;
     font-weight: normal;
     margin: 0;
     padding-left: -20px;
@@ -48,14 +50,14 @@ header {
 .logo-img {
     position: relative;
     z-index: 1;
-    width: 74px;
-    height: 73px;
+    width: 44px;
+    height: 44px;
 }
 
 .navigation {
     position: relative;
-    right: 100px;
-    top: 20px;
+    right: 40px;
+    top: 0px;
 }
 
 .navigation ul {
@@ -73,31 +75,47 @@ header {
 
 .navigation ul li a {
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     text-decoration: none;
     color: #FFFFFF;
-    padding: 10px 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
     display: block;
     position: relative;
-
 }
 
-.navigation ul li a:hover {
+.navigation li a:hover {
     font-weight: 500;
 }
 
-.line {
+/* Hover Effect */
+.navigation ul li a::after {
+    content: '';
     position: absolute;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(90deg, #FF4900 37.5%, #FFB822 100%);
-    border-radius: 20px;
     bottom: 0;
     left: 0;
-    display: none;
+    height: 3px;
+    width: 0%;
+    background: linear-gradient(90deg, #FF4900 37.5%, #FFB822 100%);
+    transition: width 0.5s ease;
 }
 
+/* On hover, animate the pseudo-element */
+.navigation ul li a:hover::after {
+    width: 50%;
+}
+
+/* Active Nav Item */
+.navigation ul .active a {
+    font-weight: 500; /* Bold the active item */
+
+}
+
+.navigation ul .active a::after {
+    width: 50%; /* Keep the underline visible for active item */
+}
 
 .nav {
     position: relative;
@@ -111,9 +129,9 @@ header {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 75px;
+    height: 40px;
     left: 0;
-    background: rgba(217, 217, 217, 0.31);
+    background: rgba(217, 217, 217, 0.2);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -123,7 +141,7 @@ header {
 .developer-name {
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 14px;
     margin-left: auto;
     margin-right: 35px;
     color: #FFFFFF;
@@ -349,6 +367,8 @@ address {
     margin-left: 50px;
 }
 
+
+
 .context-section {
     width: 100%;
     height: 820px;
@@ -403,8 +423,9 @@ address {
     position: relative;
     width: 580px;
     aspect-ratio: 1/1;
-    margin-top: -80px;
-    margin-left: 10%;
+    padding-top: -80px;
+    margin-top: -50px !important;
+    margin-left: 7%;
     transform: scale(0.7);
 }
 
@@ -470,8 +491,8 @@ address {
     position: absolute;
     width: 1040px;
     height: 293px;
-    left: -100px;
-    top: 620px;
+    left: -100px !important;
+    top: 620px !important;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -563,7 +584,7 @@ address {
     height: 221px;
     font-style: normal;
     font-weight: 500;
-    font-size: 64px;
+    font-size: 32px !important;
     line-height: 77px;
     color: #FFFFFF;
     text-align: left;
@@ -675,7 +696,7 @@ address {
 .description-tbl {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 25px;
     border: 1px solid #FF4900;
     border-radius: 20px;
     padding: 10px;
@@ -710,11 +731,14 @@ address {
     display: grid;
     grid-template-columns: 64% 35%;
     gap: 20px;
+
     margin-top: 50px;
+    /* background-color: #770633; */
 }
 
 .description-bio {
-    margin-top: -50px;
+    margin-top: -80px !important;
+    /* background-color: #770633; */
 }
 
 .description-figure {
@@ -789,7 +813,7 @@ address {
     display: grid;
     grid-template-columns: 50% 50%;
     color: #FFFFFF;
-    margin-top: 50px;
+    margin-top: 0px !important;
     padding: 0;
 }
 

@@ -155,7 +155,7 @@ header {
 .footer {
     background: #3C3C3C;
     width: 100%;
-    height: 797px;
+    height: 450px;
     z-index: -1;
     bottom: 0;
     overflow: hidden;
@@ -167,7 +167,7 @@ header {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 0px;
     text-align: center;
 }
 
@@ -176,12 +176,12 @@ header {
     justify-content: center;
     align-items: center; 
     gap: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .social-links img {
-    width: 50px; 
-    height: 50px; 
+    width: 40px; 
+    height: 40px; 
     margin-right: 15px; 
     transition: transform 0.3s ease;
 }
@@ -211,7 +211,7 @@ header {
 .bio {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 800px;
     left: 0;
     top: 0;
     background: radial-gradient(206.91% 503.64% at 31.69% 86.04%, #242424 18.38%, #FF4900 100%);
@@ -234,10 +234,10 @@ header {
     height: 1px;
     background: rgba(255, 255, 255, 0.37);
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     position: relative;
     z-index: 10;
-    margin-bottom: 50px;
+    margin-bottom: 22px;
 }
 
 .grid-section {
@@ -250,8 +250,8 @@ header {
 #quotes {
     font-style: italic;
     font-weight: 200;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: 25px;
     text-align: left;
     color: #FFFFFF;
 }
@@ -260,16 +260,17 @@ header {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 30x;
+    line-height: 20px;
     color: #FF4900;
+    margin-top: 70px;
 }
 
 #rights {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 29px;
     color: #FFFFFF;
 }
@@ -278,7 +279,7 @@ header {
     gap: 80px;
 }
 
-.grid-section .seperation-line {
+.grid-section .seperation-line { /*=========================================*/
     width: 1px;
     height: 95%;
     background: rgba(255, 255, 255, 0.37);
@@ -288,14 +289,14 @@ header {
 
 
 .quick-links h4, #my-services-heading {
-    font-size: 24px;
+    font-size: 20px;
     color: #FFFFFF;
 }
 
 .quick-links ul, .my-services ul {
     list-style-type: none;
     padding: 0;
-    line-height: 40px;
+    line-height: 20px;
 }
 
 .quick-links ul li {
@@ -306,7 +307,7 @@ header {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 .quick-links ul li a:hover {
@@ -328,8 +329,8 @@ header {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 0px;
     color: #FF4900;
 }
 #logo-contact {
@@ -342,8 +343,7 @@ address {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 18px;
     text-align: right;
     color: #FFFFFF;
 }
@@ -351,10 +351,9 @@ address {
 .email {
     font-family: 'Inter', serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 34px;
-
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 10px;
     color: #FF4900;
 }
 
@@ -373,7 +372,7 @@ address {
     width: 100%;
     height: 820px;
     left: 0;
-    margin-top: calc(100vh - 394px);
+    margin-top: 500px;
     background: radial-gradient(152.63% 394.85% at 55.86% 77.05%, #242424 18.38%, #FF4900 100%);
     overflow: hidden;
     padding: 0;
@@ -416,7 +415,7 @@ address {
 .banner-frame {
     position: relative;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 100px;
 }
 
 .banner {
@@ -424,7 +423,7 @@ address {
     width: 580px;
     aspect-ratio: 1/1;
     padding-top: -80px;
-    margin-top: -50px !important;
+    margin-top: -10px !important;
     margin-left: 7%;
     transform: scale(0.7);
 }
@@ -496,7 +495,7 @@ address {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 97px;
     text-align: center;
     color: #D9D9D9;
@@ -553,26 +552,29 @@ address {
 }
 .main-home .description{
     padding-top:100px ;
+    background-color: #d8739c;
+    margin-left: -90px;
 }
 .context, .description .social-links-container {
     width: 75%;
 
 }
-.context-heading, .context-para {
+.context-heading, .context-para{
     text-align: center;
     margin: 0 auto;
 }
 
 .context-heading-box {
-    height: 180px;
+    height: 115px;
     display: flex;
     flex-direction: row;
-    width: fit-content;
+    width: 500px;
+    /* background-color: #D84300; */
 }
 
 .context-bar {
     width: 15px;
-    height: 153px;
+    height: 110px;
     background: linear-gradient(180deg, #FF4900 37.5%, #FFB822 100%);
     border-radius: 20px;
     margin-right: 30px;
@@ -585,25 +587,29 @@ address {
     font-style: normal;
     font-weight: 500;
     font-size: 32px !important;
-    line-height: 77px;
+    line-height: 55px;
     color: #FFFFFF;
     text-align: left;
 }
 
 #body-home .context-heading {
     font-weight: 600;
+    background-color: #770633;
+    font-size: 45px !important;
+    width: 900px !important;
 }
 
 .context-para {
-    width: 600px;
+    width: 550px;
     height: 116px;
     font-style: italic;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     text-align: center;
     color: #FFFFFF;
-    padding-top: -50px;
+    padding-top: -60px !important;
+    /* background-color: #770633; */
 }
 
 .button {
@@ -614,14 +620,13 @@ address {
 }
 
 .input-button {
-    width: 283px;
-    height: 66.34px;
+    padding: 10px 20px;
     background-color: #FF4900;
     color: #FFFFFF;
     border: none;
     border-radius: 50px;
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     cursor: pointer;
     margin-left: 20px;
 }
@@ -666,29 +671,35 @@ address {
 
 .body-common .context-heading-box {
     position: relative;
-    margin-left: 80px;
-    margin-top: -20px;
+    margin-left: 60px;
+    margin-top: -55px;
 }
 
 .body-common .context-heading {
-    height: 70px;
+    height: 45px;
+    /* background-color: #770633; */
+    margin-left: -20px;
+    font-size: 24px !important;
+    font-weight: bold;
 }
 
 .body-common .context-bar {
-    height: 89px;
+    height: 40px;
+    margin-top: 10px;
 }
 
 .description-qoute {
     font-family: 'Inter', serif;
     font-style: italic;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 300;
+    font-size: 20px;
     line-height: 29px;
     color: #FFFFFF;
     width: 892px;
     height: 77px;
-    margin-top: 330px;
+    margin-top: 259px;
     margin-left: 80px;
+    /* background-color: #770633; */
 }
 
 /* main table  */
@@ -699,27 +710,34 @@ address {
     gap: 25px;
     border: 1px solid #FF4900;
     border-radius: 20px;
+    margin-top: -20px;
+
     padding: 10px;
-    width: 1010px;
+    width: 979px;
     margin-left: 80px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 70px;
     color: #FFFFFF;
 }
 
 .description-tbl .detail {
     font-weight: 300;
     width: fit-content;
+    font-size: 18px;
+}
+
+.description-tbl td:nth-child(1) {
+    font-size: 18px;
 }
 
 .passion {
     font-family: 'Inter', serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
     width: 942px;
@@ -734,6 +752,13 @@ address {
 
     margin-top: 50px;
     /* background-color: #770633; */
+}
+
+
+.bio-grid>div:nth-child(2) {
+    transform: scale(0.7);
+    margin-top: -95px;     /*==============================================*/
+    
 }
 
 .description-bio {
@@ -814,7 +839,7 @@ address {
     grid-template-columns: 50% 50%;
     color: #FFFFFF;
     margin-top: 0px !important;
-    padding: 0;
+    padding-top: 50px;
 }
 
 .context-detail {
@@ -933,7 +958,7 @@ address {
 }
 
 .circular-progress {
-    width: 250px;
+    width: 180px;
     aspect-ratio: 1/1;
     background: conic-gradient(
             #ff4500 0% 67%,  /* Orange for the 67% part */
@@ -953,7 +978,7 @@ address {
 }
 
 .inner-circle {
-    width: 210px;
+    width: 165px;
     aspect-ratio: 1/1;
     background-color: #2e2e2e;
     border-radius: 50%;
@@ -973,7 +998,7 @@ address {
 }
 
 #download {
-    margin: 0 0 20% 25%;
+    margin: 0 0 20% 36%;
 }
 
 .achievements-section {
@@ -1307,7 +1332,7 @@ address {
     align-items: center;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     transition: 0.1s;
 }
 
@@ -2183,7 +2208,7 @@ figcaption {
     }
 
     .context-heading, .services .context-heading {
-        width: 452px;
+        width: 652px !important;
         height: 121px;
         font-size: 40px;
         line-height: 50px;
@@ -2270,6 +2295,8 @@ figcaption {
         padding-bottom: 2%;
     }
 }
+
+
 
 /*Laptop-Small*/
 @media all and (max-width: 1024px) {

@@ -1153,6 +1153,7 @@ address {
 
 .services .context-section {
     margin-top: -150px;
+    height: fit-content;
 }
 
 .services .topic {
@@ -1163,16 +1164,24 @@ address {
 }
 
 .services .context-heading {
-    font-size: 64px;
-    line-height: 77px;
+    font-size: 24px !important;
+    font-weight: bold;
+    line-height: 10px;
     margin-top: 0;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 10px;
+    /* background-color: #770633; */
 }
 
+.services .context-heading-box {
+    margin-top: -30px;
+    margin-left: -50px !important;
+}
+
+
 .services .topic-heading-box {
-    margin-top: 0;
     margin-right: 120px;
+    
 }
 
 .services .topic-heading-box h2:nth-child(2) {
@@ -1181,7 +1190,8 @@ address {
 }
 
 .services .context-bar {
-    height: 87px;
+    height: 35px;
+    margin-top: -14px;
 }
 
 .quote-grid {
@@ -1193,13 +1203,14 @@ address {
 
 .quote {
     font-style: italic;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
     width: 686px;
-    height: 159px;
+    height: 50px;
     position: absolute;
     margin-left: 80px;
+    margin-top: 40px;
 }
 
 .service-cards {
@@ -1231,9 +1242,12 @@ address {
 }
 
 .service h3 {
-    font-weight: 500;
-    font-size: 30px;
-    width: 300px;
+    font-weight: 600;
+    font-size: 24px;
+    width: 200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0 auto;
 }
 
 .service-cards div:nth-child(1) img {
@@ -1286,13 +1300,25 @@ address {
 }
 
 .count h3 {
-    font-size: 48px;
+    margin-top: 15px !important;
+    font-size: 30px;
     margin: 0;
+    font-weight: 300;
 }
 
 .count p {
     font-size: 30px;
+    font-weight: bold;
     margin: 0;
+}
+
+.services .project-grid .work-ethics .context-heading {
+    margin-left: 20px;
+    position: absolute;
+}
+
+.services .project-grid .context-heading-box {
+    margin-left: 30px !important;
 }
 
 .services .skills-achievements {
@@ -1303,7 +1329,7 @@ address {
 .project-grid {
     padding-top: 120px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin: 0 auto;
 }
 
@@ -1427,12 +1453,14 @@ address {
     margin: 0 0 0 -8px;
 }
 
-#assignments h2 {
-    padding: 20px;
-    margin: 0;
-    width: 95%;
-    font-size: 48px;
-    font-weight: 400;
+#assignments .context-heading-box {
+    margin-left: 80px !important;
+    padding-top: 50px;
+}
+
+#assignments .context-heading-box .context-heading{
+    margin-left: -30px !important;
+    width: 145px !important;    
 }
 
 /* default */
@@ -1850,24 +1878,24 @@ figcaption {
     padding-left: 30px;
     padding-bottom: 30px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 #contact table tr:nth-child(1) td:nth-child(1) img {
-    width: 95px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
 }
 
 #contact table tr:nth-child(2) td:nth-child(1) img {
-    width: 73px;
-    height: 74px;
+    width: 45px;
+    height: 45px;
     object-fit: cover;
 }
 
 #contact table tr:nth-child(3) td:nth-child(1) img {
-    width: 83px;
-    height: 76px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
 }
 
@@ -1889,7 +1917,7 @@ figcaption {
 #contact form #subject,
 #contact form #message {
     width: 90%;
-    height: 53px;
+    height: 40px;
     background: rgba(60, 60, 60, 0.56);
     border-radius: 50px;
     font-size: 20px;
@@ -1902,10 +1930,11 @@ figcaption {
 #contact form #message {
     height: 185px;
     padding: 5%;
+    width: 83%;
 }
 
 #contact .input-button {
-    margin-top: 2%;
+    margin-top: 20px;
     margin-left: 25%;
 }
 

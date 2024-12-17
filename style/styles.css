@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
+    position: absolute;
     background-color: #770633;
     /*background-color: #FFB822;*/
 }
@@ -260,7 +261,7 @@ header {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 30x;
+    font-size: 30px;
     line-height: 20px;
     color: #FF4900;
     margin-top: 70px;
@@ -2479,13 +2480,17 @@ figcaption {
     /*about des tbl*/
 
     .description-bio{
-        width: 500px;
+        width: 1000px;
+        margin-left: -170px !important;
+        padding-top: 0px !important;
+        margin-top: -170px !important;
     }
     .description-tbl{
-        width: 100%;
+        width: 60%;
         height: fit-content;
         display: grid;
         grid-template-columns: 1fr;
+        line-height: 3;
     }
 
     .project-grid {
@@ -2570,6 +2575,15 @@ figcaption {
         transform: scale(0.5);
     }
 
+    .description-bio {
+        margin-top: -160px !important;
+        margin-left: -220px !important;
+    }
+
+}
+
+@media all and (max-width: 864px){
+
 }
 
 /*Tablet*/
@@ -2583,10 +2597,6 @@ figcaption {
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
-    .description-bio {
-        margin-top: 200px;
-        margin-bottom: 50px;
     }
 
     .description-qoute, .description-tbl, .passion {
@@ -2752,11 +2762,6 @@ figcaption {
         z-index: 1;
     }
 
-    .bio-grid>div:nth-child(2) {
-        margin-left: 0;
-        margin-top: -10%;
-    }
-
     .context-grid {
         grid-template-columns: 90%;
         grid-template-rows: 50% 40%;
@@ -2881,6 +2886,11 @@ figcaption {
     .services .skills-achievements article {
         width: 90%;
     }
+
+    .bio-grid {
+         grid-template-columns: 1fr;
+    }
+
 }
 
 /*Mobile-Large*/

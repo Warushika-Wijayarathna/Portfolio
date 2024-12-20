@@ -57,8 +57,9 @@ header {
 
 .navigation {
     position: relative;
-    right: 40px;
+    right: 40px !important;
     top: 0px;
+    
 }
 
 .navigation ul {
@@ -416,16 +417,16 @@ address {
 .banner-frame {
     position: relative;
     width: 100%;
-    margin: 0 100px;
+    margin: 0 0px;
 }
 
 .banner {
     position: relative;
     width: 580px;
     aspect-ratio: 1/1;
-    padding-top: -80px;
-    margin-top: -10px !important;
-    margin-left: 7%;
+    padding-top: -100px;
+    margin-top: -80px !important;
+    margin-left: 2% !important;
     transform: scale(0.7);
 }
 
@@ -492,7 +493,7 @@ address {
     width: 1040px;
     height: 293px;
     left: -100px !important;
-    top: 620px !important;
+    top: 450px !important;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -553,7 +554,7 @@ address {
 }
 .main-home .description{
     padding-top:100px ;
-    background-color: #d8739c;
+    /* background-color: #d8739c; */
     margin-left: -90px;
 }
 .context, .description .social-links-container {
@@ -595,7 +596,7 @@ address {
 
 #body-home .context-heading {
     font-weight: 600;
-    background-color: #770633;
+    /* background-color: #770633; */
     font-size: 45px !important;
     width: 900px !important;
 }
@@ -2049,6 +2050,129 @@ figcaption {
     margin-top: 10px;
 }
 
+.navigation.show {
+    display: block; /* Show when 'show' class is toggled */
+    position: absolute;
+    top: 140px !important;
+    background-color: #4444447a;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    justify-self: center;
+    margin: 0 auto;
+}
+/* Base styles (desktop/larger screens) */
+.navigation ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex; /* Items are horizontal by default */
+    gap: 20px; /* Space between items */
+    text-align: center;
+    width: 10%;
+    right: 100px !important;
+}
+
+.navigation.show ul li {
+    padding: 10px 15px !important;
+}
+
+.navigation.show ul li a {
+    text-decoration: none;
+    color: white !important;
+    /* margin-left: 50px; */
+}
+
+.navigation ul li a:hover {
+    color: #ffa500; /* Add hover effect */
+}
+
+/* Mobile styles (smaller screens) */
+@media (max-width: 768px) {
+    .navigation.show {
+        display: none; /* Hide menu by default */
+        position: absolute;
+        top: 60px;
+        background-color: #444444e7;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        width: 80%; 
+    }
+
+    .navigation.show {
+        display: block; 
+    }
+
+    .navigation ul {
+        display: block; 
+        padding: 0;
+    }
+
+    .navigation.show ul li a:hover::after {
+        width: 50%;
+    }
+    .navigation ul .active a::after {
+        width: 50%; 
+    }
+
+    .navigation ul li {
+        padding: 10px 15px;  
+    }
+
+    .navigation ul li:last-child {
+        border-bottom: none;
+    }
+
+    .navigation ul li a {
+        display: block;
+    }
+}
+
+
+
+
+
+.navigation.show ul li:last-child {
+    border-bottom: none;
+}
+
+.navigation.show ul li a {
+    text-decoration: none;
+    color: #0f0f0f;
+    display: block; /* Ensure the entire area is clickable */
+}
+
+.navigation.show ul li a:hover {
+    color: #ffa500; /* Add hover effect */
+}
+
+/* Optional: Add animation */
+.navigation.show ul li {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: slideIn 0.3s ease forwards;
+}
+
+.navigation.show ul li:nth-child(1) { animation-delay: 0.1s; }
+.navigation.show ul li:nth-child(2) { animation-delay: 0.2s; }
+.navigation.show ul li:nth-child(3) { animation-delay: 0.3s; }
+.navigation.show ul li:nth-child(4) { animation-delay: 0.4s; }
+.navigation.show ul li:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
 @media (max-width: 768px) {
 
     .menu-toggle {
@@ -2350,6 +2474,9 @@ figcaption {
         margin-left: auto;
         margin-right: auto;
         margin-top: -50px;
+        width:500px;
+        /* background-color: #a14141; */
+        transform: scale(0.7);
     }
 
     .banner-img img {
@@ -2359,6 +2486,11 @@ figcaption {
         margin: 0 auto;
         width: 340px;
         height: 340px;
+    }
+    .banner-frame{
+        /* background-color: #FFB822; */
+        /* transform: scale(0.8); */
+        /* width: auto; */
     }
 
     .banner .rec-1, .banner .rec-2 {
@@ -2401,14 +2533,23 @@ figcaption {
     }
 
     .banner-name {
-        width: 800px;
-        height: 200px;
-        left: -50px;
+        /* background-color: #c71b1b; */
+        width: 620px;
+        height: 150px;
+        left: -50px !important;
         margin: 0 auto;
         top: 410px;
-        font-size: 50px;
+        font-size: 40px;
         letter-spacing: 0.18em;
         line-height: 55px;
+    }
+    .main-home .description{
+        transform: scale(0.8);
+        margin-top: -150px !important;
+        margin-left: -180px !important;
+    }
+    .description h2{
+        font-size: 10px !important;
     }
 
     .context {
@@ -2435,13 +2576,6 @@ figcaption {
         height: 121px;
         font-size: 40px;
         line-height: 50px;
-    }
-
-    .description {
-        padding: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -200px;
     }
 
     .context-para {
@@ -2583,8 +2717,29 @@ figcaption {
 }
 
 @media all and (max-width: 864px){
+    .banner{
+        margin-left: -70px !important;
+        margin-top: -110px !important;
+
+    }
+    .banner-frame{
+
+        transform: scale(0.7);
+    }
+    .banner-name {
+        font-size: 30px;
+        top: 300px;
+    }
+
+    .main-home .description{
+        transform: scale(0.7);
+        margin-top: -130px !important;
+        margin-left: -180px !important;
+    }
 
 }
+
+
 
 /*Tablet*/
 @media all and (max-width: 768px) {
@@ -2627,10 +2782,18 @@ figcaption {
 
     .banner {
         margin: -8% auto;
+        margin-left: 140px !important;
+        margin-top: -40px !important;
+        padding-top: 0px !important;
+        height: 650px !important;
+    }
+    .banner-frame{
+        margin-top: 0px !important;
+        transform: scale(1);
     }
 
     .banner-img img {
-        top: -510px;
+        top: -430px;
         right: 0;
         left: -40px;
         margin: 0 auto;
@@ -2681,9 +2844,10 @@ figcaption {
     }
 
     .banner-name {
-        width: 800px;
-        height: 200px;
+        width: 700px;
+        height: 150px;
         margin: 0 auto;
+        margin-left: -50px !important;
         top: 410px;
         font-size: 50px;
         letter-spacing: 0.08em;
@@ -2705,10 +2869,9 @@ figcaption {
     }
 
     .description {
-        margin-top: -40%;
         display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
+        padding: 30px;
+        transform: scale(1);
     }
 
     .description .context {
@@ -2720,27 +2883,40 @@ figcaption {
     }
     #body-home .context-heading{
         text-align: center;
+        width: 700px !important;
+        font-size: 28px;
+        padding-bottom: 10px;
+        margin-left: 200px !important;
+        position: absolute;
+        top: 100px;
     }
 
     .context-para {
         font-size: 18px;
-        width: 500px;
-        top: -10px;
+        width: 700px;
         transition: transform 0.3s ease;
+        margin-top: 210px;
+        position: absolute;
+        margin-left: 200px;
+        padding-top: 10px;
     }
 
     .social-links-container {
-        margin-top: -20px;
+        position: absolute;
+        margin-top: 620px;
+        margin-left: 430px !important;
+        width: 300px !important;
+        padding-bottom: 70px !important;
     }
 
     .developer-name {
-        font-size: 22px;
+        font-size: 18px;
         margin-left: 0;
         margin-right: 0;
     }
 
     .mini-footer {
-        height: 50px;
+        height: 40px;
         justify-content: center;
     }
 
@@ -3005,10 +3181,6 @@ figcaption {
         display: none;
     }
 
-    .main-home {
-
-    }
-
     .logo-img {
         width: 50px;
         height: 50px;
@@ -3016,6 +3188,15 @@ figcaption {
 
     .logo-name {
         font-size: 30px;
+    }
+    .logo-container{
+        margin-left: 100px !important;
+    }
+    .menu-toggle{
+        margin-left: 100px !important;
+    }
+    .social-links-container{
+        margin-top: 10px !important;
     }
 
     .banner-img img {
@@ -3287,7 +3468,7 @@ figcaption {
     }
 
     .banner-img img {
-        top: -506px;
+        top: -425px;
         right: 0;
         left: -24px;
         margin: 0 auto;
@@ -3326,6 +3507,9 @@ figcaption {
         margin: 0 auto;
         background-color: #FF4900;
     }
+    .context-para{
+        display: none;
+    }
 
     .banner .frame-bar-1 {
         height: 5px;
@@ -3341,10 +3525,11 @@ figcaption {
     }
 
     .banner-name {
-        width: 800px;
-        height: 200px;
+        background-color: #D84300;
+        width: 370px;
+        height: 90px;
         margin: 0 auto;
-        top: 310px;
+        top: 320px !important;
         font-size: 40px;
         letter-spacing: 0.08em;
         line-height: 55px;

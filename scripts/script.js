@@ -52,10 +52,12 @@ function mouseLeave(event, card) {
     card.style.transform = "";
 }
 
-function toggleMenu() {
+function toggleMenu(){
     const nav = document.querySelector('.navigation');
-    nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+    nav.classList.toggle('show');
+    console.log("Menu toggled");
 }
+
 
 
   

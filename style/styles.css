@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 body {
     position: absolute;
-    background-color: #770633;
+    background-color: #242424;
     /*background-color: #FFB822;*/
 }
 
@@ -2888,10 +2888,115 @@ figcaption {
     }
 
     .bio-grid {
-         grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        margin: 250px auto;
+        /* background-color: #770633; */
+
+    }
+    .description-tbl{
+        margin-left: 30% !important;
+    }
+    .passion {
+        margin-top: 30px !important;
+    }
+
+    .description-qoute, .passion {
+        text-align: center;
+    }
+
+    .description-gallery {
+        margin-top: -250px !important;
+        margin-left: 35% !important;
+    }
+
+    .description-gallery-container, .description-bio {
+        width: 100%;
     }
 
 }
+
+/* 640 */
+
+
+@media all and (max-width : 650px) {
+    .bio-grid {
+        grid-template-columns: 1fr;
+        margin-top: 250px;
+        margin-left: -90px;
+    }
+    .description-qoute{
+        width: 700px;
+        margin-left: 340px !important;
+    }
+    .passion{
+        width: 700px;
+        margin-left: 335px !important;
+    }
+    .description-tbl{
+        width: 700px;
+        margin-left: 335px !important;
+    }
+      
+}
+
+@media all and (max-width : 560px) {
+    .bio-grid {
+        grid-template-columns: 1fr;
+        margin-top: 180px;
+        margin-left: 55px;
+    }
+    .description-qoute{
+        width: 500px;
+        margin-left: 240px !important;
+        margin-bottom: 20px !important;
+    }
+    .passion{
+        width: 500px;
+        margin-left: 235px !important;
+    }
+    .description-tbl{
+        width: 500px;
+        margin-left: 235px !important;
+    }
+    /* /----------------------------------------- */
+
+    .description-gallery {
+        margin-top: -330px !important;
+        margin-left: 30px !important;
+    }
+
+    .bio-grid>div:nth-child(1) {
+        transform: scale(0.4);
+    }
+
+    .bio-grid>div:nth-child(2) {
+        transform: scale(0.4);
+    }
+
+    .context-grid>div:nth-child(1){
+        transform: scale(0.4);
+    }
+
+    .context-grid>div:nth-child(2){
+        transform: scale(0.4);
+    }
+
+    .topic-heading-box{ 
+        transform: scale(0.7);
+        margin-left: -66px !important;
+    }
+
+    .context-heading-box{
+        width:300px !important;
+        height: 60px;
+    }
+    .context-bar{
+        width: 10px;
+        height: 30px !important;
+    }
+
+}
+
 
 /*Mobile-Large*/
 @media all and (max-width: 425px) {
@@ -2930,6 +3035,8 @@ figcaption {
         width: 315px;
         height: 350px;
     }
+
+
 
     .banner .rec-overlay{
         display: flex;
@@ -3028,22 +3135,7 @@ figcaption {
         display: none;
     }
 
-    .description-tbl{
-        width: fit-content;
-        height: fit-content;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .description-qoute {
-        text-align: center;
-        width: 400px;
-    }
-
-    .passion {
-        text-align: center;
-        width: 400px;
-    }
+    
 
     .body-common .context-section {
         margin-top: 250%;
@@ -3077,10 +3169,7 @@ figcaption {
         font-size: 20px;
     }
 
-    .description {
-        margin-top: -500px;
-        margin-left: 15%;
-    }
+    
 
     #body-common .bio-grid {
         margin: 0 auto;
@@ -3170,14 +3259,10 @@ figcaption {
         margin-top: 70px;
     }
 
-    .description-bio {
-        margin-top: 100px;
-        margin-bottom: 50px;
+    .description-bio{
+        margin-top: -20px !important;
     }
-
-    .description-qoute, .description-tbl, .passion {
-        margin: 70px 10%;
-    }
+    
 }
 
 /*Mobile-Medium*/
@@ -3331,10 +3416,6 @@ figcaption {
         line-height: 37px;
     }
 
-    .bio-grid>div:nth-child(2) {
-        transform: scale(0.5);
-        margin: -40% 0 0 0;
-    }
 
     .context-heading {
         font-size: 25px;
@@ -3384,9 +3465,7 @@ figcaption {
         margin: 0 auto;
     }
 
-    .bio-grid>div:nth-child(2) {
-        margin-left: -10%;
-    }
+    
 
     #body-common .context-heading-box, #body-common .context-heading {
         width: 300px;
@@ -3582,6 +3661,14 @@ figcaption {
 
     #assignments h2 {
         padding-right: 0;
+    }
+    
+    .description-gallery-container{
+        width: fit-content;
+        margin-left: 0px !important;
+    }
+    .description-bio{
+        margin-left: -245px !important;
     }
 }
 

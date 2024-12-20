@@ -164,7 +164,7 @@ header {
     margin-left: -8px;
 }
 
-.social-links-container {
+.body-home .social-links-container {
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -1351,7 +1351,7 @@ address {
     margin: 10px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    background-image: url('/images/project1.png');
+    background-image: url('/images/project1.jpeg');
     background-size: cover; /* Adjust this */
     background-position: center; /* Center the image */
     overflow: hidden;
@@ -1365,15 +1365,19 @@ address {
 }
 
 .project-cards .project-card:nth-child(2) {
-    background-image: url('/images/project2.png');
+    background-image: url('/images/project2.jpeg');
 }
 
 .project-cards .project-card:nth-child(3) {
-    background-image: url('/images/project3.png');
+    background-image: url('/images/project3.avif');
 }
 
 .project-cards .project-card:nth-child(4) {
-    background-image: url('/images/project4.png');
+    background-image: url('/images/project4.jpeg');
+}
+
+.project-cards .project-card:nth-child(5) {
+    background-image: url('/images/project5.png');
 }
 
 .project-cards .project-card .content {
